@@ -18,6 +18,3 @@ dependencies = [
     "python-multipart>=0.0.9",
     "openai>=1.14.0"
 ]
-
-[tool.vercel]
-entrypoint = "backend.main:app"

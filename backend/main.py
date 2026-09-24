@@ -167,6 +167,15 @@ class PredictRequest(BaseModel):
 
 # --- 1. Dataset Management Endpoints ---
 
+@app.get("/")
+def root():
+    return {
+        "status": "online",
+        "service": "InsightPilot AI Backend API",
+        "version": "2.0.0",
+        "docs_url": "/docs"
+    }
+
 @app.get("/api/health")
 def health_check():
     return {
