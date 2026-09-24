@@ -4,7 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "npm --prefix frontend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "python -m uvicorn backend.main:app --host 127.0.0.1 --port 8001 --reload",
     "build": "npm --prefix frontend run build",
-    "start": "npm --prefix frontend run start"
+    "start": "npm --prefix frontend run start",
+    "test:backend": "python backend/test_suite.py",
+    "git:status": "git status",
+    "git:add": "git add -A",
+    "git:commit": "git commit -m \"Update InsightPilot application\"",
+    "git:push": "git push origin main",
+    "git:pull": "git pull origin main",
+    "git:sync": "git add -A && git commit -m \"Update InsightPilot application\" && git push origin main"
   }
 }

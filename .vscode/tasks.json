@@ -1,0 +1,106 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Git: Quick Sync (Save → Stage → Commit → Push)",
+            "type": "shell",
+            "command": "git add -A && git commit -m \"Update InsightPilot application\" && git push origin main",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "Git: Status (Check Changed Files)",
+            "type": "shell",
+            "command": "git status",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            }
+        },
+        {
+            "label": "Git: Stage All Changes (git add)",
+            "type": "shell",
+            "command": "git add -A",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Git: Commit Changes",
+            "type": "shell",
+            "command": "git commit -m \"${input:commitMessage}\"",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Git: Push to GitHub (origin main)",
+            "type": "shell",
+            "command": "git push origin main",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Git: Pull Latest Changes",
+            "type": "shell",
+            "command": "git pull origin main",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Dev: Run Backend (FastAPI on Port 8001)",
+            "type": "shell",
+            "command": "python -m uvicorn main:app --host 127.0.0.1 --port 8001 --reload",
+            "options": {
+                "cwd": "${workspaceFolder}/backend"
+            },
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Dev: Run Frontend (Next.js on Port 3000)",
+            "type": "shell",
+            "command": "npm --prefix frontend run dev",
+            "isBackground": true,
+            "problemMatcher": []
+        },
+        {
+            "label": "Vercel: Build Verification",
+            "type": "shell",
+            "command": "npm --prefix frontend run build",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "commitMessage",
+            "type": "promptString",
+            "description": "Enter commit message:",
+            "default": "Update InsightPilot project"
+        }
+    ]
+}

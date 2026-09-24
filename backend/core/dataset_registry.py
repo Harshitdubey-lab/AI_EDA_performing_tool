@@ -41,11 +41,14 @@ class DatasetRegistry:
 
     @classmethod
     def get_dataset_metadata(cls, dataset_id: str) -> Dict[str, Any]:
-        with cls.get_db_connection() as conn:
+        conn = cls.get_db_connection()
+        try:
             row = conn.execute("SELECT * FROM datasets WHERE id = ?", (dataset_id,)).fetchone()
             if not row:
                 raise ValueError(f"Dataset with ID '{dataset_id}' not found in registry.")
             return dict(row)
+        finally:
+            conn.close()
 
     @classmethod
     def get_profile(cls, dataset_id: str, force_refresh: bool = False) -> Dict[str, Any]:
@@ -90,9 +93,12 @@ class DatasetRegistry:
         Returns full catalog across all registered datasets with computed profile summaries,
         readiness tiers, health indicators, and dimension counts.
         """
-        with cls.get_db_connection() as conn:
+        conn = cls.get_db_connection()
+        try:
             rows = conn.execute("SELECT * FROM datasets ORDER BY created_at DESC").fetchall()
             datasets_list = [dict(r) for r in rows]
+        finally:
+            conn.close()
 
         catalog = []
         for meta in datasets_list:

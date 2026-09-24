@@ -62,11 +62,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from contextlib import contextmanager
+
 # Database initializations
+@contextmanager
 def get_db():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
-    return conn
+    try:
+        yield conn
+        conn.commit()
+    finally:
+        conn.close()
 
 def init_db():
     with get_db() as conn:
