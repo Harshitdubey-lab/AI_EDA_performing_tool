@@ -30,7 +30,8 @@ import {
   getEDACatalog,
   getAutoEDAReport,
   compareDatasets,
-  askPortfolio
+  askPortfolio,
+  API_BASE_URL
 } from '@/lib/api';
 
 interface DataScientistViewProps {
@@ -220,7 +221,7 @@ export const DataScientistView: React.FC<DataScientistViewProps> = ({
               {selectedDataset && report && (
                 <div className="flex items-center gap-1.5">
                   <a
-                    href={`http://127.0.0.1:8000/api/dataset/${selectedDataset.id}/export-eda?format=markdown`}
+                    href={`${API_BASE_URL}/api/dataset/${selectedDataset.id}/export-eda?format=markdown`}
                     download
                     className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold rounded-lg border border-slate-700 transition flex items-center gap-1.5"
                     title="Download complete EDA dossier as Markdown (.md)"
@@ -230,7 +231,7 @@ export const DataScientistView: React.FC<DataScientistViewProps> = ({
                   </a>
 
                   <a
-                    href={`http://127.0.0.1:8000/api/dataset/${selectedDataset.id}/export-eda?format=json`}
+                    href={`${API_BASE_URL}/api/dataset/${selectedDataset.id}/export-eda?format=json`}
                     download
                     className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-lg border border-slate-700 transition flex items-center gap-1.5"
                     title="Download complete EDA report payload as JSON"

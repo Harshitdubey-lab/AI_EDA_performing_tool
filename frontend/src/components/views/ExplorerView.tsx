@@ -17,7 +17,7 @@ import {
   FileText,
   Database
 } from 'lucide-react';
-import { DatasetProfile } from '@/lib/api';
+import { DatasetProfile, API_BASE_URL } from '@/lib/api';
 
 interface ExplorerViewProps {
   profile: DatasetProfile | null;
@@ -101,7 +101,7 @@ export const ExplorerView: React.FC<ExplorerViewProps> = ({ profile, datasetName
           {/* Download Raw/Filtered Data */}
           {datasetId && (
             <a
-              href={`http://127.0.0.1:8000/api/dataset/${datasetId}/export-filtered?format=csv`}
+              href={`${API_BASE_URL}/api/dataset/${datasetId}/export-filtered?format=csv`}
               download
               className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold rounded-lg border border-slate-700 transition flex items-center gap-1.5"
               title="Download full dataset as CSV"
@@ -134,7 +134,7 @@ export const ExplorerView: React.FC<ExplorerViewProps> = ({ profile, datasetName
           {/* Download Full AI EDA Dossier */}
           {datasetId && (
             <a
-              href={`http://127.0.0.1:8000/api/dataset/${datasetId}/export-eda?format=markdown`}
+              href={`${API_BASE_URL}/api/dataset/${datasetId}/export-eda?format=markdown`}
               download
               className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold rounded-lg transition flex items-center gap-1.5 shadow-sm"
               title="Download AI Data Scientist EDA narrative dossier as Markdown"

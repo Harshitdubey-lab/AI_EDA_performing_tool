@@ -17,7 +17,8 @@ import {
   Dataset,
   DatasetProfile,
   getDatasets,
-  getDatasetProfile
+  getDatasetProfile,
+  API_BASE_URL
 } from '@/lib/api';
 import { Loader2, AlertCircle } from 'lucide-react';
 
@@ -46,7 +47,7 @@ export default function Home() {
         await loadProfile(target.id);
       }
     } catch (err: any) {
-      setError('Could not connect to FastAPI backend on http://127.0.0.1:8000. Ensure the backend server is running.');
+      setError(`Could not connect to FastAPI backend on ${API_BASE_URL}. Ensure the backend server is running.`);
     } finally {
       setLoadingInitial(false);
     }

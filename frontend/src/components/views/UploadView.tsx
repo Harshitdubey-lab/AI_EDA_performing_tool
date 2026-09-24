@@ -15,7 +15,7 @@ import {
   Loader2,
   Globe
 } from 'lucide-react';
-import { Dataset, uploadDataset, getDatasetPreview, importOpenMLDataset } from '@/lib/api';
+import { Dataset, uploadDataset, getDatasetPreview, importOpenMLDataset, API_BASE_URL } from '@/lib/api';
 
 interface UploadViewProps {
   selectedDataset: Dataset | null;
@@ -272,7 +272,7 @@ export const UploadView: React.FC<UploadViewProps> = ({
             {selectedDataset && (
               <div className="flex items-center gap-1.5">
                 <a
-                  href={`http://127.0.0.1:8000/api/dataset/${selectedDataset.id}/export-filtered?format=csv${search ? `&search=${encodeURIComponent(search)}` : ''}`}
+                  href={`${API_BASE_URL}/api/dataset/${selectedDataset.id}/export-filtered?format=csv${search ? `&search=${encodeURIComponent(search)}` : ''}`}
                   download
                   className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium rounded-lg border border-slate-700 transition flex items-center gap-1.5"
                   title={search ? 'Download rows matching your filter as CSV' : 'Download complete dataset as CSV'}
@@ -282,7 +282,7 @@ export const UploadView: React.FC<UploadViewProps> = ({
                 </a>
 
                 <a
-                  href={`http://127.0.0.1:8000/api/dataset/${selectedDataset.id}/export-filtered?format=json${search ? `&search=${encodeURIComponent(search)}` : ''}`}
+                  href={`${API_BASE_URL}/api/dataset/${selectedDataset.id}/export-filtered?format=json${search ? `&search=${encodeURIComponent(search)}` : ''}`}
                   download
                   className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium rounded-lg border border-slate-700 transition flex items-center gap-1.5"
                   title="Download as JSON"
