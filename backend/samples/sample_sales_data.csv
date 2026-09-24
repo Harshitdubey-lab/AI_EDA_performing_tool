@@ -1,0 +1,651 @@
+order_id,order_date,customer_id,region,city,product_category,product_name,quantity,unit_price,discount,revenue,profit,payment_method,customer_segment,delivery_days,returned
+ORD-10001,2023-01-01,CUST-206,Asia Pacific,Sydney,Furniture,Solid Oak Conference Table,2,868.59,0.0,1737.18,364.18,PayPal,Small Business,7,No
+ORD-10002,2023-01-01,CUST-190,Latin America,Santiago,Furniture,Adjustable Standing Desk,1,573.71,0.15,487.65,36.92,Credit Card,Small Business,10,No
+ORD-10003,2023-01-05,CUST-290,North America,New York,Furniture,Lounge Recliner Sofa,1,719.0,0.05,683.05,114.16,Corporate Invoice,Consumer,3,No
+ORD-10004,2023-01-05,CUST-252,North America,Los Angeles,Electronics,4K Ultra Gaming Monitor,1,514.06,0.05,488.36,107.93,Direct Wire,Small Business,3,No
+ORD-10005,2023-01-03,CUST-334,North America,Los Angeles,Office Supplies,Heavy Duty Paper Shredder,1,125.51,0.05,119.23,26.76,Corporate Invoice,Corporate,3,Yes
+ORD-10006,2023-01-08,CUST-115,North America,Toronto,Furniture,Executive Ergonomic Chair,4,344.38,0.1,1239.77,161.77,Corporate Invoice,Small Business,2,Yes
+ORD-10007,2023-01-09,CUST-260,Asia Pacific,Seoul,Fashion & Apparel,Merino Wool Blazer,1,255.69,0.1,230.12,40.88,PayPal,Corporate,13,Yes
+ORD-10008,2023-01-05,CUST-141,Asia Pacific,Singapore,Electronics,Wireless Fast Charger,3,47.27,0.1,127.63,10.66,Credit Card,Corporate,3,No
+ORD-10009,2023-01-05,CUST-203,Latin America,Bogota,Furniture,Adjustable Standing Desk,5,580.09,0.0,2900.45,617.6,PayPal,Small Business,3,No
+ORD-10010,2023-01-08,CUST-232,Latin America,Santiago,Fashion & Apparel,Titanium Chrono Watch,1,303.3,0.1,272.97,56.38,PayPal,Corporate,4,No
+ORD-10011,2023-01-14,CUST-132,North America,Chicago,Fashion & Apparel,Waterproof Trench Coat,2,189.32,0.05,359.71,88.62,PayPal,Corporate,2,No
+ORD-10012,2023-01-06,CUST-262,Asia Pacific,Mumbai,Office Supplies,Locking Storage Cabinet,1,221.42,0.0,221.42,62.0,Direct Wire,Corporate,8,Yes
+ORD-10013,2023-01-09,CUST-188,North America,New York,Electronics,Ultra Pro Smartphone,3,774.07,0.0,2322.21,634.72,Direct Wire,Corporate,3,No
+ORD-10014,2023-01-13,CUST-176,Latin America,Sao Paulo,Office Supplies,Recycled Multipurpose Paper,4,37.21,0.0,148.84,29.09,PayPal,Corporate,6,No
+ORD-10015,2023-01-11,CUST-103,North America,Houston,Electronics,Noise-Canceling Headphones,2,258.13,0.0,516.26,126.55,PayPal,Small Business,8,Yes
+ORD-10016,2023-01-18,CUST-245,Asia Pacific,Singapore,Office Supplies,Heavy Duty Paper Shredder,5,123.73,0.05,587.72,158.16,Corporate Invoice,Small Business,9,Yes
+ORD-10017,2023-01-13,CUST-233,Asia Pacific,Seoul,Furniture,Modern Minimalist Bookcase,2,189.54,0.1,341.17,31.47,Credit Card,Corporate,7,No
+ORD-10018,2023-01-16,CUST-111,Asia Pacific,Mumbai,Office Supplies,Premium Gel Pen 20-Pack,2,24.29,0.05,46.15,-3.58,Credit Card,Small Business,8,Yes
+ORD-10019,2023-01-12,CUST-340,Asia Pacific,Singapore,Electronics,4K Ultra Gaming Monitor,2,476.99,0.0,953.98,254.11,PayPal,Corporate,4,No
+ORD-10020,2023-01-20,CUST-161,Europe,Berlin,Furniture,Adjustable Standing Desk,3,596.33,0.15,1520.64,147.97,Credit Card,Consumer,4,No
+ORD-10021,2023-01-15,CUST-131,Asia Pacific,Seoul,Furniture,Adjustable Standing Desk,10,582.55,0.0,5825.5,1243.61,PayPal,Small Business,8,No
+ORD-10022,2023-01-23,CUST-314,North America,Houston,Electronics,Wireless Fast Charger,5,51.01,0.0,255.05,45.91,Corporate Invoice,Small Business,7,Yes
+ORD-10023,2023-01-17,CUST-219,Asia Pacific,Singapore,Fashion & Apparel,Titanium Chrono Watch,2,287.78,0.0,575.56,166.18,PayPal,Small Business,7,Yes
+ORD-10024,2023-01-20,CUST-287,North America,Toronto,Office Supplies,Premium Gel Pen 20-Pack,4,23.53,0.1,84.71,0.3,PayPal,Small Business,6,No
+ORD-10025,2023-01-18,CUST-158,Europe,Paris,Electronics,Ultra Pro Smartphone,1,805.55,0.2,644.44,73.28,Direct Wire,Consumer,3,Yes
+ORD-10026,2023-01-22,CUST-256,Asia Pacific,Tokyo,Furniture,Modern Minimalist Bookcase,2,202.63,0.05,385.0,52.26,Direct Wire,Small Business,8,No
+ORD-10027,2023-01-26,CUST-118,Latin America,Mexico City,Fashion & Apparel,Waterproof Trench Coat,3,193.4,0.15,493.17,86.83,Corporate Invoice,Small Business,5,No
+ORD-10028,2023-01-26,CUST-123,North America,Toronto,Furniture,Lounge Recliner Sofa,1,745.92,0.1,671.33,81.84,PayPal,Small Business,6,No
+ORD-10029,2023-01-27,CUST-136,Europe,Paris,Office Supplies,Desk Organization Tray,1,17.17,0.0,17.17,-9.49,Credit Card,Corporate,8,No
+ORD-10030,2023-01-23,CUST-227,Asia Pacific,Seoul,Office Supplies,Desk Organization Tray,1,17.91,0.0,17.91,-9.23,Corporate Invoice,Consumer,6,No
+ORD-10031,2023-01-29,CUST-187,Asia Pacific,Seoul,Furniture,Modern Minimalist Bookcase,1,190.99,0.0,190.99,31.52,Credit Card,Corporate,1,No
+ORD-10032,2023-01-26,CUST-116,Europe,London,Electronics,Noise-Canceling Headphones,1,242.75,0.05,230.61,45.42,Direct Wire,Corporate,5,No
+ORD-10033,2023-01-25,CUST-105,Latin America,Bogota,Office Supplies,Premium Gel Pen 20-Pack,1,23.21,0.0,23.21,-2.38,PayPal,Small Business,1,No
+ORD-10034,2023-01-28,CUST-168,Asia Pacific,Sydney,Electronics,Ultra Pro Smartphone,8,831.97,0.15,5657.4,919.61,Credit Card,Consumer,4,Yes
+ORD-10035,2023-02-01,CUST-136,Latin America,Santiago,Fashion & Apparel,Waterproof Trench Coat,1,182.47,0.05,173.35,38.47,Credit Card,Corporate,3,No
+ORD-10036,2023-01-28,CUST-289,North America,New York,Office Supplies,Premium Gel Pen 20-Pack,8,23.62,0.0,188.96,38.14,Direct Wire,Corporate,4,No
+ORD-10037,2023-01-31,CUST-141,Latin America,Santiago,Furniture,Lounge Recliner Sofa,3,740.36,0.05,2110.03,364.58,PayPal,Small Business,10,No
+ORD-10038,2023-02-01,CUST-164,Asia Pacific,Tokyo,Office Supplies,Locking Storage Cabinet,2,216.3,0.2,346.08,56.22,PayPal,Corporate,2,No
+ORD-10039,2023-01-30,CUST-147,North America,New York,Fashion & Apparel,Italian Leather Chelsea Boots,8,223.8,0.05,1700.88,452.5,Corporate Invoice,Corporate,2,No
+ORD-10040,2023-02-07,CUST-234,Europe,Berlin,Electronics,4K Ultra Gaming Monitor,1,486.22,0.0,486.22,120.64,Corporate Invoice,Small Business,6,No
+ORD-10041,2023-02-04,CUST-289,Europe,Paris,Fashion & Apparel,Titanium Chrono Watch,1,313.08,0.2,250.46,27.08,Corporate Invoice,Corporate,7,No
+ORD-10042,2023-02-07,CUST-126,Latin America,Mexico City,Electronics,Noise-Canceling Headphones,1,241.27,0.0,241.27,57.06,PayPal,Consumer,2,No
+ORD-10043,2023-02-01,CUST-264,North America,Los Angeles,Electronics,Ultra Pro Smartphone,1,825.29,0.0,825.29,220.58,Corporate Invoice,Small Business,1,No
+ORD-10044,2023-02-03,CUST-186,North America,New York,Fashion & Apparel,Waterproof Trench Coat,1,197.99,0.0,197.99,52.86,Corporate Invoice,Corporate,3,No
+ORD-10045,2023-02-05,CUST-289,Latin America,Mexico City,Fashion & Apparel,Italian Leather Chelsea Boots,2,226.39,0.1,407.5,86.84,Credit Card,Corporate,4,No
+ORD-10046,2023-02-11,CUST-345,Asia Pacific,Tokyo,Office Supplies,Heavy Duty Paper Shredder,2,122.89,0.3,172.05,3.51,Corporate Invoice,Small Business,6,No
+ORD-10047,2023-02-09,CUST-291,Latin America,Sao Paulo,Furniture,Executive Ergonomic Chair,1,339.7,0.0,339.7,59.23,PayPal,Small Business,7,No
+ORD-10048,2023-02-10,CUST-228,Latin America,Bogota,Office Supplies,Locking Storage Cabinet,1,222.42,0.1,200.18,44.55,Credit Card,Corporate,2,No
+ORD-10049,2023-02-14,CUST-218,North America,Houston,Fashion & Apparel,Business Travel Backpack,4,92.57,0.0,370.28,100.49,Corporate Invoice,Small Business,3,No
+ORD-10050,2023-02-13,CUST-181,Asia Pacific,Sydney,Fashion & Apparel,Merino Wool Blazer,2,243.12,0.0,486.24,142.6,Corporate Invoice,Corporate,5,No
+ORD-10051,2023-02-16,CUST-246,North America,Chicago,Office Supplies,Desk Organization Tray,1,18.51,0.0,18.51,-9.02,Direct Wire,Small Business,9,No
+ORD-10052,2023-02-11,CUST-190,Asia Pacific,Tokyo,Electronics,4K Ultra Gaming Monitor,5,496.98,0.3,1739.43,75.17,PayPal,Corporate,4,No
+ORD-10053,2023-02-16,CUST-211,North America,New York,Office Supplies,Locking Storage Cabinet,4,208.54,0.15,709.04,150.4,Credit Card,Consumer,4,No
+ORD-10054,2023-02-10,CUST-318,Europe,London,Office Supplies,Locking Storage Cabinet,10,222.21,0.0,2222.1,739.73,Direct Wire,Corporate,6,No
+ORD-10055,2023-02-14,CUST-162,Latin America,Sao Paulo,Furniture,Adjustable Standing Desk,5,619.44,0.15,2632.62,257.51,Credit Card,Small Business,8,No
+ORD-10056,2023-02-19,CUST-338,Europe,Berlin,Fashion & Apparel,Merino Wool Blazer,3,245.33,0.0,735.99,220.02,Credit Card,Consumer,1,Yes
+ORD-10057,2023-02-14,CUST-131,Asia Pacific,Seoul,Fashion & Apparel,Merino Wool Blazer,10,244.82,0.1,2203.38,501.83,Credit Card,Corporate,6,No
+ORD-10058,2023-02-15,CUST-153,Europe,Berlin,Office Supplies,Heavy Duty Paper Shredder,4,124.15,0.1,446.94,104.91,Direct Wire,Consumer,3,No
+ORD-10059,2023-02-22,CUST-245,North America,Chicago,Office Supplies,Locking Storage Cabinet,1,208.06,0.0,208.06,57.32,Credit Card,Small Business,9,No
+ORD-10060,2023-02-18,CUST-281,North America,New York,Furniture,Adjustable Standing Desk,10,612.67,0.05,5820.36,1029.22,Credit Card,Small Business,1,No
+ORD-10061,2023-02-24,CUST-327,North America,Houston,Electronics,Noise-Canceling Headphones,1,247.15,0.3,173.0,-5.98,Credit Card,Small Business,9,Yes
+ORD-10062,2023-02-20,CUST-321,Asia Pacific,Singapore,Furniture,Modern Minimalist Bookcase,2,208.74,0.3,292.24,-14.46,Corporate Invoice,Corporate,4,Yes
+ORD-10063,2023-02-23,CUST-329,Europe,Paris,Furniture,Modern Minimalist Bookcase,5,203.23,0.2,812.92,31.4,Direct Wire,Consumer,8,No
+ORD-10064,2023-02-22,CUST-335,Latin America,Mexico City,Electronics,Wireless Fast Charger,1,47.9,0.0,47.9,-2.09,Corporate Invoice,Consumer,6,No
+ORD-10065,2023-02-23,CUST-186,North America,New York,Office Supplies,Premium Gel Pen 20-Pack,1,24.38,0.05,23.16,-8.26,Credit Card,Corporate,9,No
+ORD-10066,2023-02-25,CUST-121,Latin America,Sao Paulo,Fashion & Apparel,Waterproof Trench Coat,3,195.78,0.05,557.97,142.13,PayPal,Corporate,1,Yes
+ORD-10067,2023-02-24,CUST-150,Europe,Madrid,Electronics,4K Ultra Gaming Monitor,1,492.49,0.1,443.24,75.36,Direct Wire,Small Business,7,No
+ORD-10068,2023-02-27,CUST-106,Asia Pacific,Mumbai,Electronics,Noise-Canceling Headphones,1,243.44,0.1,219.1,34.42,Credit Card,Corporate,1,No
+ORD-10069,2023-03-03,CUST-284,Latin America,Sao Paulo,Electronics,Ultra Pro Smartphone,2,819.81,0.2,1311.7,157.52,Direct Wire,Small Business,5,No
+ORD-10070,2023-03-01,CUST-248,Latin America,Sao Paulo,Office Supplies,Desk Organization Tray,3,17.11,0.05,48.76,-0.26,PayPal,Corporate,1,No
+ORD-10071,2023-03-01,CUST-123,Asia Pacific,Sydney,Office Supplies,Heavy Duty Paper Shredder,2,124.9,0.0,249.8,74.43,PayPal,Small Business,5,No
+ORD-10072,2023-02-26,CUST-291,North America,Los Angeles,Office Supplies,Locking Storage Cabinet,1,225.82,0.2,180.66,20.63,Direct Wire,Consumer,7,Yes
+ORD-10073,2023-02-27,CUST-124,North America,Los Angeles,Furniture,Executive Ergonomic Chair,8,357.87,0.0,2862.96,601.85,Direct Wire,Small Business,3,No
+ORD-10074,2023-02-27,CUST-160,Latin America,Buenos Aires,Electronics,4K Ultra Gaming Monitor,1,501.34,0.1,451.21,82.0,PayPal,Corporate,4,No
+ORD-10075,2023-03-04,CUST-249,Latin America,Mexico City,Fashion & Apparel,Titanium Chrono Watch,4,291.65,0.1,1049.94,234.24,Credit Card,Consumer,7,No
+ORD-10076,2023-03-02,CUST-317,Asia Pacific,Sydney,Office Supplies,Premium Gel Pen 20-Pack,2,24.39,0.05,46.34,-3.52,Direct Wire,Consumer,8,No
+ORD-10077,2023-03-07,CUST-165,North America,Houston,Office Supplies,Locking Storage Cabinet,1,215.38,0.05,204.61,53.44,PayPal,Consumer,3,No
+ORD-10078,2023-03-03,CUST-193,Asia Pacific,Singapore,Furniture,Modern Minimalist Bookcase,2,207.61,0.15,352.94,19.94,Direct Wire,Small Business,8,Yes
+ORD-10079,2023-03-03,CUST-275,Latin America,Bogota,Electronics,"Ergonomic Laptop 15""",5,1211.36,0.1,5451.12,1091.98,Direct Wire,Consumer,9,No
+ORD-10080,2023-03-06,CUST-323,North America,Chicago,Electronics,Ultra Pro Smartphone,5,823.84,0.0,4119.2,1132.88,Credit Card,Small Business,1,No
+ORD-10081,2023-03-10,CUST-147,Asia Pacific,Tokyo,Electronics,Ultra Pro Smartphone,3,782.67,0.0,2348.01,641.94,Corporate Invoice,Corporate,5,No
+ORD-10082,2023-03-07,CUST-132,Latin America,Santiago,Fashion & Apparel,Titanium Chrono Watch,2,295.63,0.0,591.26,176.2,Direct Wire,Consumer,5,Yes
+ORD-10083,2023-03-12,CUST-298,Latin America,Mexico City,Electronics,Ultra Pro Smartphone,4,834.57,0.05,3171.37,746.06,PayPal,Consumer,8,No
+ORD-10084,2023-03-13,CUST-168,Asia Pacific,Tokyo,Fashion & Apparel,Waterproof Trench Coat,8,185.96,0.15,1264.53,234.39,PayPal,Small Business,2,No
+ORD-10085,2023-03-09,CUST-283,Asia Pacific,Singapore,Office Supplies,Premium Gel Pen 20-Pack,1,23.08,0.0,23.08,-2.42,Credit Card,Corporate,4,No
+ORD-10086,2023-03-12,CUST-143,Asia Pacific,Seoul,Fashion & Apparel,Italian Leather Chelsea Boots,1,224.8,0.1,202.32,34.07,Credit Card,Corporate,11,No
+ORD-10087,2023-03-18,CUST-105,North America,Los Angeles,Office Supplies,Locking Storage Cabinet,3,228.62,0.2,548.69,94.24,Corporate Invoice,Corporate,2,No
+ORD-10088,2023-03-14,CUST-153,Europe,Paris,Electronics,Wireless Fast Charger,5,50.39,0.15,214.16,15.37,Direct Wire,Corporate,3,No
+ORD-10089,2023-03-19,CUST-209,North America,New York,Furniture,Executive Ergonomic Chair,5,352.21,0.1,1584.94,209.32,Corporate Invoice,Small Business,5,Yes
+ORD-10090,2023-03-19,CUST-141,North America,New York,Electronics,"Ergonomic Laptop 15""",4,1144.74,0.0,4578.96,1264.11,Direct Wire,Consumer,5,No
+ORD-10091,2023-03-16,CUST-114,North America,New York,Fashion & Apparel,Business Travel Backpack,8,91.6,0.1,659.52,133.58,Credit Card,Small Business,3,No
+ORD-10092,2023-03-22,CUST-337,Latin America,Sao Paulo,Fashion & Apparel,Titanium Chrono Watch,5,311.24,0.0,1556.2,477.48,Credit Card,Corporate,3,No
+ORD-10093,2023-03-21,CUST-175,North America,Toronto,Electronics,Wireless Fast Charger,4,49.06,0.05,186.43,27.21,Direct Wire,Consumer,4,No
+ORD-10094,2023-03-18,CUST-200,North America,Toronto,Office Supplies,Recycled Multipurpose Paper,2,39.47,0.05,74.99,10.43,Direct Wire,Consumer,5,Yes
+ORD-10095,2023-03-20,CUST-141,Asia Pacific,Tokyo,Furniture,Adjustable Standing Desk,1,610.76,0.1,549.68,64.2,Credit Card,Consumer,8,Yes
+ORD-10096,2023-03-21,CUST-210,North America,Toronto,Office Supplies,Heavy Duty Paper Shredder,4,133.55,0.1,480.78,114.21,Credit Card,Small Business,3,No
+ORD-10097,2023-03-24,CUST-263,Asia Pacific,Tokyo,Electronics,Noise-Canceling Headphones,1,256.89,0.1,231.2,36.9,PayPal,Small Business,5,No
+ORD-10098,2023-03-25,CUST-239,Europe,Madrid,Furniture,Solid Oak Conference Table,3,925.04,0.0,2775.12,595.03,Corporate Invoice,Small Business,4,No
+ORD-10099,2023-03-23,CUST-151,Europe,Madrid,Electronics,4K Ultra Gaming Monitor,3,493.14,0.0,1479.42,398.74,Credit Card,Consumer,4,No
+ORD-10100,2023-03-25,CUST-349,Asia Pacific,Singapore,Furniture,Lounge Recliner Sofa,1,769.19,0.05,730.73,122.86,Corporate Invoice,Consumer,5,No
+ORD-10101,2023-03-29,CUST-181,Asia Pacific,Singapore,Office Supplies,Premium Gel Pen 20-Pack,4,24.98,0.0,99.92,16.97,PayPal,Small Business,5,No
+ORD-10102,2023-03-22,CUST-207,Asia Pacific,Tokyo,Furniture,Solid Oak Conference Table,5,890.56,0.05,4230.16,751.5,Corporate Invoice,Small Business,5,No
+ORD-10103,2023-03-31,CUST-216,Asia Pacific,Mumbai,Electronics,Wireless Fast Charger,1,46.85,0.2,37.48,-5.63,Direct Wire,Consumer,3,No
+ORD-10104,2023-03-24,CUST-135,North America,Los Angeles,Furniture,Modern Minimalist Bookcase,5,203.14,0.0,1015.7,197.95,PayPal,Consumer,6,Yes
+ORD-10105,2023-03-28,CUST-238,Latin America,Buenos Aires,Fashion & Apparel,Italian Leather Chelsea Boots,2,212.74,0.0,425.48,118.15,PayPal,Corporate,6,No
+ORD-10106,2023-03-28,CUST-334,Europe,Amsterdam,Office Supplies,Locking Storage Cabinet,1,213.73,0.0,213.73,64.31,Credit Card,Consumer,1,No
+ORD-10107,2023-03-26,CUST-152,North America,Los Angeles,Fashion & Apparel,Merino Wool Blazer,2,261.03,0.05,495.96,127.11,Direct Wire,Small Business,2,Yes
+ORD-10108,2023-03-31,CUST-163,Europe,Amsterdam,Fashion & Apparel,Italian Leather Chelsea Boots,2,220.32,0.15,374.54,59.72,Credit Card,Corporate,7,No
+ORD-10109,2023-04-01,CUST-129,North America,Toronto,Fashion & Apparel,Italian Leather Chelsea Boots,5,221.06,0.0,1105.3,333.2,Credit Card,Corporate,5,No
+ORD-10110,2023-04-02,CUST-109,North America,Chicago,Office Supplies,Locking Storage Cabinet,1,223.59,0.05,212.41,55.88,Direct Wire,Corporate,1,No
+ORD-10111,2023-03-30,CUST-236,North America,Toronto,Fashion & Apparel,Titanium Chrono Watch,3,295.86,0.05,843.2,222.7,PayPal,Small Business,5,No
+ORD-10112,2023-04-08,CUST-322,Asia Pacific,Tokyo,Fashion & Apparel,Waterproof Trench Coat,1,187.57,0.1,168.81,30.86,Direct Wire,Small Business,2,No
+ORD-10113,2023-04-08,CUST-316,Europe,London,Office Supplies,Locking Storage Cabinet,1,218.99,0.1,197.09,38.7,Credit Card,Corporate,8,Yes
+ORD-10114,2023-04-05,CUST-297,Europe,Madrid,Electronics,"Ergonomic Laptop 15""",2,1190.67,0.1,2143.21,426.36,Corporate Invoice,Corporate,2,No
+ORD-10115,2023-04-08,CUST-295,North America,Toronto,Furniture,Executive Ergonomic Chair,2,351.74,0.05,668.31,108.97,Corporate Invoice,Consumer,4,No
+ORD-10116,2023-04-04,CUST-214,North America,New York,Fashion & Apparel,Merino Wool Blazer,1,250.28,0.0,250.28,69.59,Direct Wire,Corporate,3,No
+ORD-10117,2023-04-06,CUST-173,Europe,London,Office Supplies,Locking Storage Cabinet,3,209.48,0.0,628.44,199.45,Corporate Invoice,Consumer,6,No
+ORD-10118,2023-04-06,CUST-348,Asia Pacific,Tokyo,Fashion & Apparel,Waterproof Trench Coat,5,197.98,0.0,989.9,291.27,Credit Card,Small Business,10,No
+ORD-10119,2023-04-13,CUST-232,North America,Toronto,Electronics,Ultra Pro Smartphone,1,796.18,0.2,636.94,72.3,Credit Card,Corporate,5,Yes
+ORD-10120,2023-04-06,CUST-170,North America,Chicago,Fashion & Apparel,Titanium Chrono Watch,3,298.87,0.2,717.29,101.44,PayPal,Corporate,9,No
+ORD-10121,2023-04-10,CUST-188,Asia Pacific,Tokyo,Furniture,Solid Oak Conference Table,2,878.82,0.0,1757.64,373.68,Direct Wire,Small Business,5,No
+ORD-10122,2023-04-14,CUST-169,Asia Pacific,Seoul,Electronics,Ultra Pro Smartphone,3,802.96,0.15,2047.55,322.46,Direct Wire,Small Business,8,No
+ORD-10123,2023-04-17,CUST-160,Asia Pacific,Mumbai,Electronics,"Ergonomic Laptop 15""",2,1228.04,0.2,1964.86,242.43,Corporate Invoice,Consumer,3,No
+ORD-10124,2023-04-14,CUST-207,North America,Los Angeles,Electronics,Ultra Pro Smartphone,4,829.9,0.1,2987.64,589.47,Corporate Invoice,Consumer,6,No
+ORD-10125,2023-04-16,CUST-278,Latin America,Mexico City,Office Supplies,Heavy Duty Paper Shredder,1,126.53,0.1,113.88,15.82,PayPal,Corporate,9,No
+ORD-10126,2023-04-11,CUST-257,Asia Pacific,Tokyo,Fashion & Apparel,Waterproof Trench Coat,2,186.97,0.0,373.94,101.66,Corporate Invoice,Consumer,8,No
+ORD-10127,2023-04-13,CUST-228,North America,Chicago,Fashion & Apparel,Business Travel Backpack,3,86.69,0.0,260.07,67.72,Direct Wire,Corporate,3,No
+ORD-10128,2023-04-17,CUST-275,Europe,Madrid,Electronics,Ultra Pro Smartphone,3,796.55,0.3,1672.75,76.5,PayPal,Corporate,1,No
+ORD-10129,2023-04-22,CUST-253,North America,New York,Furniture,Adjustable Standing Desk,1,575.23,0.1,517.71,64.57,Credit Card,Corporate,5,No
+ORD-10130,2023-04-15,CUST-113,North America,Chicago,Fashion & Apparel,Business Travel Backpack,10,92.1,0.0,921.0,261.72,Corporate Invoice,Small Business,1,No
+ORD-10131,2023-04-19,CUST-327,Asia Pacific,Sydney,Furniture,Adjustable Standing Desk,5,586.65,0.05,2786.59,483.05,Direct Wire,Consumer,8,No
+ORD-10132,2023-04-20,CUST-184,Europe,Madrid,Electronics,Wireless Fast Charger,4,46.99,0.2,150.37,-3.45,Direct Wire,Corporate,9,Yes
+ORD-10133,2023-04-24,CUST-280,Asia Pacific,Sydney,Furniture,Lounge Recliner Sofa,5,763.18,0.0,3815.9,819.0,Corporate Invoice,Consumer,1,No
+ORD-10134,2023-04-26,CUST-343,North America,Toronto,Furniture,Solid Oak Conference Table,1,912.42,0.0,912.42,190.23,PayPal,Small Business,2,No
+ORD-10135,2023-04-20,CUST-193,Asia Pacific,Mumbai,Furniture,Executive Ergonomic Chair,2,345.55,0.2,552.88,25.7,Direct Wire,Corporate,2,Yes
+ORD-10136,2023-04-24,CUST-316,Latin America,Buenos Aires,Fashion & Apparel,Business Travel Backpack,2,86.19,0.0,172.38,42.16,Credit Card,Corporate,5,No
+ORD-10137,2023-04-21,CUST-152,Europe,Berlin,Furniture,Lounge Recliner Sofa,2,785.89,0.1,1414.6,192.12,Credit Card,Small Business,2,No
+ORD-10138,2023-04-28,CUST-322,Latin America,Buenos Aires,Fashion & Apparel,Waterproof Trench Coat,2,198.26,0.05,376.69,93.41,Corporate Invoice,Consumer,4,No
+ORD-10139,2023-04-29,CUST-305,Europe,Berlin,Furniture,Solid Oak Conference Table,1,937.38,0.15,796.77,75.15,Direct Wire,Corporate,1,No
+ORD-10140,2023-04-27,CUST-308,North America,Chicago,Office Supplies,Heavy Duty Paper Shredder,8,132.29,0.1,952.49,233.93,Direct Wire,Consumer,5,Yes
+ORD-10141,2023-05-02,CUST-188,Europe,Amsterdam,Furniture,Modern Minimalist Bookcase,2,191.4,0.15,325.38,16.98,PayPal,Consumer,6,No
+ORD-10142,2023-05-02,CUST-252,North America,Houston,Fashion & Apparel,Merino Wool Blazer,5,246.8,0.2,987.2,147.32,Direct Wire,Small Business,4,Yes
+ORD-10143,2023-04-27,CUST-200,Europe,Berlin,Furniture,Executive Ergonomic Chair,1,333.24,0.05,316.58,47.28,Direct Wire,Small Business,2,Yes
+ORD-10144,2023-04-26,CUST-301,Latin America,Mexico City,Fashion & Apparel,Waterproof Trench Coat,1,193.67,0.0,193.67,46.47,Direct Wire,Corporate,12,No
+ORD-10145,2023-05-01,CUST-301,Europe,Paris,Fashion & Apparel,Italian Leather Chelsea Boots,1,225.08,0.2,180.06,15.11,Corporate Invoice,Small Business,8,No
+ORD-10146,2023-05-06,CUST-226,Latin America,Bogota,Office Supplies,Desk Organization Tray,5,18.01,0.0,90.05,11.02,Corporate Invoice,Small Business,2,No
+ORD-10147,2023-05-04,CUST-135,Latin America,Sao Paulo,Fashion & Apparel,Waterproof Trench Coat,2,184.1,0.05,349.79,85.82,PayPal,Corporate,3,No
+ORD-10148,2023-05-06,CUST-110,Latin America,Santiago,Fashion & Apparel,Titanium Chrono Watch,1,312.21,0.3,218.55,10.26,PayPal,Small Business,4,Yes
+ORD-10149,2023-05-05,CUST-209,Europe,Madrid,Electronics,Ultra Pro Smartphone,1,768.7,0.15,653.39,93.94,Corporate Invoice,Small Business,6,No
+ORD-10150,2023-05-03,CUST-140,Europe,Amsterdam,Furniture,Executive Ergonomic Chair,2,366.02,0.0,732.04,148.05,Credit Card,Small Business,5,No
+ORD-10151,2023-05-05,CUST-244,North America,New York,Office Supplies,Heavy Duty Paper Shredder,1,129.07,0.05,122.62,22.82,Credit Card,Small Business,8,No
+ORD-10152,2023-05-09,CUST-249,Latin America,Santiago,Fashion & Apparel,Titanium Chrono Watch,1,309.75,0.1,278.78,52.8,Direct Wire,Consumer,8,Yes
+ORD-10153,2023-05-05,CUST-278,North America,New York,Fashion & Apparel,Waterproof Trench Coat,8,195.12,0.05,1482.91,385.92,Direct Wire,Small Business,7,Yes
+ORD-10154,2023-05-06,CUST-250,Latin America,Mexico City,Electronics,Noise-Canceling Headphones,3,236.76,0.05,674.77,148.13,Corporate Invoice,Small Business,2,No
+ORD-10155,2023-05-09,CUST-246,Latin America,Santiago,Fashion & Apparel,Titanium Chrono Watch,5,299.45,0.05,1422.39,381.33,Corporate Invoice,Corporate,1,No
+ORD-10156,2023-05-13,CUST-125,Asia Pacific,Sydney,Office Supplies,Heavy Duty Paper Shredder,3,123.36,0.0,370.08,114.03,Credit Card,Small Business,5,No
+ORD-10157,2023-05-07,CUST-173,Asia Pacific,Tokyo,Office Supplies,Premium Gel Pen 20-Pack,1,25.11,0.05,23.85,-8.05,Credit Card,Consumer,9,Yes
+ORD-10158,2023-05-12,CUST-322,Europe,Madrid,Office Supplies,Heavy Duty Paper Shredder,1,127.79,0.05,121.4,27.44,Direct Wire,Corporate,1,No
+ORD-10159,2023-05-14,CUST-130,Europe,Berlin,Fashion & Apparel,Titanium Chrono Watch,2,304.6,0.1,548.28,121.33,Credit Card,Corporate,2,No
+ORD-10160,2023-05-16,CUST-234,Europe,Paris,Furniture,Solid Oak Conference Table,2,883.98,0.05,1679.56,288.52,PayPal,Consumer,9,No
+ORD-10161,2023-05-17,CUST-190,North America,Toronto,Electronics,"Ergonomic Laptop 15""",2,1209.88,0.1,2177.78,433.44,PayPal,Corporate,5,No
+ORD-10162,2023-05-13,CUST-276,North America,Chicago,Office Supplies,Locking Storage Cabinet,2,210.61,0.2,336.98,54.4,Corporate Invoice,Corporate,1,No
+ORD-10163,2023-05-19,CUST-289,Latin America,Mexico City,Electronics,Noise-Canceling Headphones,1,252.22,0.15,214.39,25.41,Direct Wire,Corporate,2,No
+ORD-10164,2023-05-14,CUST-255,Latin America,Mexico City,Electronics,"Ergonomic Laptop 15""",1,1204.2,0.05,1143.99,266.92,Corporate Invoice,Corporate,3,No
+ORD-10165,2023-05-18,CUST-141,Europe,London,Office Supplies,Premium Gel Pen 20-Pack,3,24.12,0.0,72.36,9.83,Corporate Invoice,Corporate,2,Yes
+ORD-10166,2023-05-20,CUST-177,North America,New York,Fashion & Apparel,Business Travel Backpack,1,91.3,0.0,91.3,13.72,Corporate Invoice,Small Business,7,No
+ORD-10167,2023-05-20,CUST-124,North America,Houston,Fashion & Apparel,Merino Wool Blazer,5,260.74,0.3,912.59,66.2,Direct Wire,Consumer,1,Yes
+ORD-10168,2023-05-21,CUST-219,Europe,Paris,Electronics,Ultra Pro Smartphone,4,830.07,0.0,3320.28,911.68,Credit Card,Corporate,2,No
+ORD-10169,2023-05-24,CUST-143,Europe,Paris,Office Supplies,Locking Storage Cabinet,3,227.48,0.05,648.32,182.1,Credit Card,Small Business,7,No
+ORD-10170,2023-05-22,CUST-200,Latin America,Sao Paulo,Fashion & Apparel,Waterproof Trench Coat,1,184.98,0.0,184.98,48.69,Credit Card,Consumer,3,No
+ORD-10171,2023-05-22,CUST-117,Asia Pacific,Sydney,Fashion & Apparel,Merino Wool Blazer,5,253.36,0.1,1140.12,253.83,Credit Card,Consumer,8,No
+ORD-10172,2023-05-20,CUST-266,Latin America,Mexico City,Fashion & Apparel,Titanium Chrono Watch,5,289.61,0.0,1448.05,437.88,Credit Card,Consumer,7,No
+ORD-10173,2023-05-25,CUST-262,Asia Pacific,Seoul,Office Supplies,Desk Organization Tray,5,17.2,0.05,81.7,5.03,Direct Wire,Consumer,3,No
+ORD-10174,2023-05-25,CUST-274,Europe,Paris,Furniture,Modern Minimalist Bookcase,5,203.69,0.0,1018.45,203.56,Credit Card,Corporate,4,No
+ORD-10175,2023-05-24,CUST-328,Europe,Paris,Furniture,Solid Oak Conference Table,1,862.09,0.05,818.99,138.97,Corporate Invoice,Small Business,4,No
+ORD-10176,2023-05-29,CUST-214,Europe,London,Electronics,Wireless Fast Charger,3,46.99,0.05,133.92,16.98,Corporate Invoice,Small Business,3,No
+ORD-10177,2023-05-29,CUST-218,Asia Pacific,Tokyo,Fashion & Apparel,Titanium Chrono Watch,1,307.37,0.15,261.26,38.71,Corporate Invoice,Consumer,8,No
+ORD-10178,2023-05-24,CUST-201,Europe,Amsterdam,Fashion & Apparel,Business Travel Backpack,4,91.09,0.0,364.36,93.6,Direct Wire,Corporate,6,No
+ORD-10179,2023-06-02,CUST-127,Asia Pacific,Seoul,Office Supplies,Desk Organization Tray,4,18.36,0.05,69.77,3.8,PayPal,Consumer,3,No
+ORD-10180,2023-05-31,CUST-115,Asia Pacific,Seoul,Electronics,Ultra Pro Smartphone,10,814.28,0.1,7328.52,1469.35,Direct Wire,Small Business,3,No
+ORD-10181,2023-06-01,CUST-342,Asia Pacific,Mumbai,Furniture,Lounge Recliner Sofa,2,760.29,0.0,1520.58,316.53,Direct Wire,Consumer,8,Yes
+ORD-10182,2023-05-31,CUST-180,Latin America,Santiago,Electronics,"Ergonomic Laptop 15""",2,1220.65,0.1,2197.17,437.42,PayPal,Small Business,5,No
+ORD-10183,2023-06-03,CUST-329,Asia Pacific,Seoul,Electronics,Wireless Fast Charger,3,47.3,0.05,134.8,12.19,Direct Wire,Corporate,8,No
+ORD-10184,2023-05-29,CUST-204,Asia Pacific,Sydney,Furniture,Modern Minimalist Bookcase,2,199.1,0.0,398.2,74.6,Direct Wire,Consumer,5,No
+ORD-10185,2023-05-31,CUST-113,Asia Pacific,Seoul,Electronics,Wireless Fast Charger,1,46.83,0.05,44.49,0.29,Direct Wire,Consumer,4,No
+ORD-10186,2023-06-08,CUST-347,Asia Pacific,Mumbai,Electronics,Noise-Canceling Headphones,2,243.23,0.05,462.14,94.07,PayPal,Corporate,6,No
+ORD-10187,2023-06-09,CUST-169,Asia Pacific,Tokyo,Fashion & Apparel,Italian Leather Chelsea Boots,10,224.73,0.0,2247.3,681.14,PayPal,Small Business,8,No
+ORD-10188,2023-06-04,CUST-309,Europe,Berlin,Furniture,Lounge Recliner Sofa,1,747.48,0.1,672.73,82.05,Direct Wire,Consumer,8,No
+ORD-10189,2023-06-10,CUST-159,North America,Chicago,Electronics,4K Ultra Gaming Monitor,1,513.21,0.0,513.21,128.2,Credit Card,Small Business,6,No
+ORD-10190,2023-06-04,CUST-270,Europe,Madrid,Furniture,Executive Ergonomic Chair,3,363.88,0.15,927.89,84.25,Credit Card,Corporate,4,No
+ORD-10191,2023-06-04,CUST-304,Asia Pacific,Singapore,Furniture,Adjustable Standing Desk,2,620.79,0.05,1179.5,197.26,Corporate Invoice,Corporate,7,No
+ORD-10192,2023-06-07,CUST-122,Europe,Berlin,Office Supplies,Locking Storage Cabinet,1,223.46,0.0,223.46,62.71,Credit Card,Consumer,9,No
+ORD-10193,2023-06-10,CUST-318,Asia Pacific,Sydney,Electronics,Wireless Fast Charger,3,49.7,0.1,134.19,7.01,Credit Card,Corporate,6,No
+ORD-10194,2023-06-07,CUST-329,Latin America,Buenos Aires,Fashion & Apparel,Titanium Chrono Watch,2,305.83,0.2,489.33,70.19,PayPal,Corporate,2,No
+ORD-10195,2023-06-10,CUST-227,North America,Houston,Office Supplies,Locking Storage Cabinet,2,213.46,0.1,384.23,92.66,Corporate Invoice,Corporate,4,No
+ORD-10196,2023-06-08,CUST-277,Europe,Paris,Fashion & Apparel,Titanium Chrono Watch,2,295.84,0.2,473.34,67.47,Direct Wire,Small Business,4,No
+ORD-10197,2023-06-17,CUST-250,Latin America,Mexico City,Office Supplies,Premium Gel Pen 20-Pack,4,24.69,0.0,98.76,11.57,PayPal,Corporate,9,No
+ORD-10198,2023-06-12,CUST-335,Asia Pacific,Sydney,Electronics,Noise-Canceling Headphones,2,246.23,0.0,492.46,124.89,Corporate Invoice,Small Business,5,No
+ORD-10199,2023-06-12,CUST-139,North America,New York,Furniture,Solid Oak Conference Table,4,942.52,0.1,3393.07,469.0,Direct Wire,Corporate,8,No
+ORD-10200,2023-06-17,CUST-137,Latin America,Sao Paulo,Electronics,Noise-Canceling Headphones,1,252.68,0.0,252.68,55.25,Credit Card,Small Business,8,No
+ORD-10201,2023-06-14,CUST-350,Asia Pacific,Tokyo,Furniture,Solid Oak Conference Table,1,915.77,0.0,915.77,185.97,Direct Wire,Corporate,6,No
+ORD-10202,2023-06-15,CUST-338,Latin America,Sao Paulo,Electronics,Wireless Fast Charger,1,49.17,0.05,46.71,0.83,PayPal,Small Business,3,No
+ORD-10203,2023-06-22,CUST-174,North America,Los Angeles,Fashion & Apparel,Titanium Chrono Watch,10,294.15,0.15,2500.28,480.81,Direct Wire,Consumer,8,No
+ORD-10204,2023-06-17,CUST-137,Asia Pacific,Singapore,Furniture,Adjustable Standing Desk,3,599.24,0.0,1797.72,380.0,Credit Card,Consumer,3,No
+ORD-10205,2023-06-24,CUST-319,Latin America,Buenos Aires,Fashion & Apparel,Italian Leather Chelsea Boots,5,221.85,0.0,1109.25,334.46,Corporate Invoice,Small Business,3,No
+ORD-10206,2023-06-25,CUST-111,North America,Houston,Electronics,Noise-Canceling Headphones,2,245.08,0.05,465.65,99.92,Corporate Invoice,Consumer,5,No
+ORD-10207,2023-06-21,CUST-330,Latin America,Sao Paulo,Electronics,Wireless Fast Charger,1,50.14,0.0,50.14,3.54,Credit Card,Corporate,2,No
+ORD-10208,2023-06-19,CUST-149,Asia Pacific,Mumbai,Fashion & Apparel,Italian Leather Chelsea Boots,3,226.56,0.0,679.68,197.0,Credit Card,Consumer,8,No
+ORD-10209,2023-06-21,CUST-235,Latin America,Sao Paulo,Furniture,Executive Ergonomic Chair,2,366.21,0.05,695.8,108.98,Corporate Invoice,Small Business,8,No
+ORD-10210,2023-06-25,CUST-316,North America,Los Angeles,Fashion & Apparel,Waterproof Trench Coat,4,194.01,0.1,698.44,148.12,PayPal,Corporate,9,No
+ORD-10211,2023-06-24,CUST-310,Asia Pacific,Seoul,Furniture,Adjustable Standing Desk,4,619.11,0.0,2476.44,521.82,Corporate Invoice,Consumer,7,No
+ORD-10212,2023-06-30,CUST-235,North America,Chicago,Office Supplies,Recycled Multipurpose Paper,3,39.35,0.0,118.05,20.82,PayPal,Small Business,8,No
+ORD-10213,2023-06-29,CUST-171,Asia Pacific,Tokyo,Fashion & Apparel,Waterproof Trench Coat,1,192.67,0.1,173.4,31.98,PayPal,Corporate,5,No
+ORD-10214,2023-06-24,CUST-333,North America,New York,Electronics,"Ergonomic Laptop 15""",3,1191.12,0.0,3573.36,980.04,Corporate Invoice,Corporate,7,No
+ORD-10215,2023-06-29,CUST-339,North America,Los Angeles,Furniture,Adjustable Standing Desk,10,612.04,0.0,6120.4,1308.49,PayPal,Consumer,7,No
+ORD-10216,2023-07-01,CUST-340,Asia Pacific,Seoul,Furniture,Executive Ergonomic Chair,3,343.32,0.05,978.46,158.07,PayPal,Consumer,6,No
+ORD-10217,2023-06-27,CUST-290,North America,Houston,Fashion & Apparel,Titanium Chrono Watch,1,290.71,0.0,290.71,82.53,Corporate Invoice,Corporate,4,No
+ORD-10218,2023-07-02,CUST-157,North America,Toronto,Fashion & Apparel,Titanium Chrono Watch,1,293.6,0.0,293.6,78.45,Direct Wire,Small Business,9,No
+ORD-10219,2023-07-02,CUST-136,Europe,Paris,Office Supplies,Locking Storage Cabinet,1,219.72,0.0,219.72,66.4,Direct Wire,Consumer,2,No
+ORD-10220,2023-06-30,CUST-266,Europe,Berlin,Office Supplies,Desk Organization Tray,2,18.43,0.0,36.86,-0.1,Corporate Invoice,Corporate,2,No
+ORD-10221,2023-07-05,CUST-117,Latin America,Mexico City,Office Supplies,Heavy Duty Paper Shredder,1,133.24,0.0,133.24,31.13,Credit Card,Small Business,8,No
+ORD-10222,2023-07-02,CUST-215,Latin America,Buenos Aires,Fashion & Apparel,Titanium Chrono Watch,1,296.75,0.1,267.07,54.93,Corporate Invoice,Corporate,3,No
+ORD-10223,2023-07-02,CUST-269,Latin America,Mexico City,Electronics,Noise-Canceling Headphones,1,236.98,0.15,201.43,18.24,PayPal,Consumer,9,No
+ORD-10224,2023-07-09,CUST-210,Asia Pacific,Sydney,Office Supplies,Desk Organization Tray,4,17.8,0.0,71.2,6.92,PayPal,Small Business,4,No
+ORD-10225,2023-07-02,CUST-265,North America,New York,Office Supplies,Recycled Multipurpose Paper,1,39.2,0.1,35.28,-5.8,Credit Card,Corporate,6,No
+ORD-10226,2023-07-10,CUST-258,Latin America,Santiago,Fashion & Apparel,Waterproof Trench Coat,5,189.17,0.0,945.85,277.17,Direct Wire,Consumer,7,Yes
+ORD-10227,2023-07-05,CUST-314,North America,Toronto,Electronics,Wireless Fast Charger,2,49.41,0.05,93.88,9.77,Corporate Invoice,Corporate,4,No
+ORD-10228,2023-07-11,CUST-213,Latin America,Mexico City,Fashion & Apparel,Waterproof Trench Coat,4,196.2,0.1,706.32,150.05,Corporate Invoice,Small Business,6,No
+ORD-10229,2023-07-12,CUST-291,Latin America,Mexico City,Electronics,Wireless Fast Charger,2,46.97,0.0,93.94,13.3,PayPal,Consumer,5,No
+ORD-10230,2023-07-10,CUST-317,North America,Chicago,Office Supplies,Locking Storage Cabinet,5,210.41,0.1,946.85,239.88,Credit Card,Small Business,5,No
+ORD-10231,2023-07-11,CUST-160,Asia Pacific,Sydney,Office Supplies,Locking Storage Cabinet,1,209.2,0.05,198.74,46.61,Credit Card,Corporate,7,No
+ORD-10232,2023-07-15,CUST-195,Latin America,Bogota,Fashion & Apparel,Italian Leather Chelsea Boots,2,223.03,0.0,446.06,124.74,PayPal,Corporate,8,Yes
+ORD-10233,2023-07-15,CUST-198,Asia Pacific,Sydney,Furniture,Modern Minimalist Bookcase,5,204.87,0.0,1024.35,199.86,Direct Wire,Consumer,8,No
+ORD-10234,2023-07-18,CUST-149,Latin America,Sao Paulo,Furniture,Solid Oak Conference Table,1,933.74,0.0,933.74,194.92,Credit Card,Corporate,4,Yes
+ORD-10235,2023-07-18,CUST-230,Latin America,Bogota,Electronics,Wireless Fast Charger,1,48.24,0.05,45.83,0.61,Direct Wire,Small Business,4,No
+ORD-10236,2023-07-20,CUST-312,Europe,Paris,Office Supplies,Desk Organization Tray,4,17.81,0.15,60.55,-8.62,Direct Wire,Consumer,6,No
+ORD-10237,2023-07-20,CUST-120,Europe,Madrid,Fashion & Apparel,Business Travel Backpack,4,91.18,0.2,291.78,31.6,Direct Wire,Corporate,3,No
+ORD-10238,2023-07-19,CUST-348,Asia Pacific,Seoul,Office Supplies,Recycled Multipurpose Paper,2,40.44,0.05,76.84,6.01,Credit Card,Small Business,8,Yes
+ORD-10239,2023-07-17,CUST-205,Latin America,Sao Paulo,Fashion & Apparel,Business Travel Backpack,2,89.59,0.0,179.18,39.34,Corporate Invoice,Corporate,8,Yes
+ORD-10240,2023-07-16,CUST-178,Asia Pacific,Sydney,Electronics,Wireless Fast Charger,8,51.39,0.0,411.12,82.11,PayPal,Small Business,6,No
+ORD-10241,2023-07-21,CUST-178,Europe,Berlin,Electronics,Noise-Canceling Headphones,2,257.01,0.05,488.32,105.42,Corporate Invoice,Small Business,4,No
+ORD-10242,2023-07-25,CUST-251,Asia Pacific,Tokyo,Fashion & Apparel,Business Travel Backpack,3,89.25,0.0,267.75,70.18,PayPal,Corporate,1,Yes
+ORD-10243,2023-07-20,CUST-109,Latin America,Mexico City,Electronics,"Ergonomic Laptop 15""",2,1243.84,0.0,2487.68,683.55,PayPal,Corporate,3,No
+ORD-10244,2023-07-26,CUST-340,North America,Houston,Fashion & Apparel,Merino Wool Blazer,2,247.57,0.1,445.63,91.18,Corporate Invoice,Small Business,6,No
+ORD-10245,2023-07-21,CUST-193,North America,New York,Furniture,Lounge Recliner Sofa,2,724.49,0.0,1448.98,305.78,Direct Wire,Corporate,1,No
+ORD-10246,2023-07-23,CUST-136,North America,Toronto,Electronics,Wireless Fast Charger,2,50.74,0.0,101.48,15.41,Corporate Invoice,Corporate,5,No
+ORD-10247,2023-07-23,CUST-187,Asia Pacific,Sydney,Furniture,Executive Ergonomic Chair,4,353.28,0.15,1201.15,106.12,PayPal,Consumer,7,No
+ORD-10248,2023-07-29,CUST-110,Latin America,Santiago,Electronics,4K Ultra Gaming Monitor,2,492.17,0.0,984.34,257.62,Corporate Invoice,Corporate,8,Yes
+ORD-10249,2023-07-26,CUST-224,Europe,Berlin,Electronics,4K Ultra Gaming Monitor,2,519.73,0.3,727.62,22.02,PayPal,Corporate,9,No
+ORD-10250,2023-07-25,CUST-313,Asia Pacific,Sydney,Office Supplies,Desk Organization Tray,1,18.49,0.0,18.49,-9.03,Direct Wire,Corporate,9,No
+ORD-10251,2023-07-28,CUST-348,North America,New York,Office Supplies,Premium Gel Pen 20-Pack,1,25.05,0.1,22.55,-9.3,Credit Card,Corporate,7,No
+ORD-10252,2023-07-25,CUST-237,Asia Pacific,Seoul,Electronics,Noise-Canceling Headphones,3,242.28,0.0,726.84,188.02,Direct Wire,Consumer,4,No
+ORD-10253,2023-07-31,CUST-337,Latin America,Sao Paulo,Fashion & Apparel,Titanium Chrono Watch,2,301.55,0.15,512.63,93.37,PayPal,Small Business,4,No
+ORD-10254,2023-08-01,CUST-322,North America,Toronto,Fashion & Apparel,Italian Leather Chelsea Boots,3,229.38,0.0,688.14,204.7,Credit Card,Corporate,5,No
+ORD-10255,2023-07-29,CUST-262,Asia Pacific,Seoul,Fashion & Apparel,Business Travel Backpack,2,90.79,0.1,163.42,22.04,Direct Wire,Small Business,7,Yes
+ORD-10256,2023-07-30,CUST-145,North America,Chicago,Furniture,Adjustable Standing Desk,10,591.69,0.05,5621.06,992.84,Corporate Invoice,Small Business,5,No
+ORD-10257,2023-08-04,CUST-230,North America,Chicago,Furniture,Executive Ergonomic Chair,3,359.98,0.0,1079.94,217.09,Direct Wire,Corporate,8,Yes
+ORD-10258,2023-08-03,CUST-278,North America,Chicago,Office Supplies,Locking Storage Cabinet,1,226.28,0.05,214.97,51.68,Credit Card,Small Business,9,No
+ORD-10259,2023-08-05,CUST-105,Latin America,Sao Paulo,Furniture,Adjustable Standing Desk,1,614.69,0.05,583.96,91.07,Direct Wire,Corporate,7,No
+ORD-10260,2023-08-04,CUST-243,North America,Toronto,Furniture,Adjustable Standing Desk,1,615.36,0.0,615.36,119.88,Credit Card,Consumer,9,No
+ORD-10261,2023-08-05,CUST-269,North America,New York,Fashion & Apparel,Titanium Chrono Watch,2,291.69,0.15,495.87,89.89,PayPal,Corporate,4,No
+ORD-10262,2023-08-07,CUST-163,North America,Toronto,Fashion & Apparel,Waterproof Trench Coat,1,197.51,0.05,187.63,42.51,Corporate Invoice,Corporate,2,Yes
+ORD-10263,2023-08-09,CUST-139,Europe,Berlin,Fashion & Apparel,Titanium Chrono Watch,8,308.69,0.0,2469.52,762.25,PayPal,Consumer,3,No
+ORD-10264,2023-08-06,CUST-125,Asia Pacific,Sydney,Electronics,Noise-Canceling Headphones,2,240.83,0.05,457.58,97.96,Corporate Invoice,Consumer,4,No
+ORD-10265,2023-08-05,CUST-128,Asia Pacific,Singapore,Electronics,4K Ultra Gaming Monitor,2,487.22,0.1,877.0,161.79,PayPal,Corporate,7,No
+ORD-10266,2023-08-10,CUST-191,Asia Pacific,Sydney,Electronics,4K Ultra Gaming Monitor,3,485.62,0.2,1165.49,131.01,PayPal,Small Business,7,No
+ORD-10267,2023-08-12,CUST-272,Asia Pacific,Sydney,Fashion & Apparel,Business Travel Backpack,2,85.35,0.0,170.7,36.62,PayPal,Consumer,7,No
+ORD-10268,2023-08-12,CUST-144,Asia Pacific,Mumbai,Furniture,Adjustable Standing Desk,1,607.0,0.0,607.0,118.04,PayPal,Consumer,8,No
+ORD-10269,2023-08-12,CUST-325,Europe,London,Office Supplies,Recycled Multipurpose Paper,4,37.98,0.15,129.13,12.67,Credit Card,Small Business,2,No
+ORD-10270,2023-08-15,CUST-227,Europe,London,Office Supplies,Recycled Multipurpose Paper,1,37.21,0.1,33.49,-6.29,Credit Card,Consumer,8,No
+ORD-10271,2023-08-13,CUST-289,Europe,London,Fashion & Apparel,Titanium Chrono Watch,2,293.81,0.0,587.62,175.04,Credit Card,Small Business,1,No
+ORD-10272,2023-08-12,CUST-236,North America,Toronto,Fashion & Apparel,Titanium Chrono Watch,5,299.43,0.05,1422.29,381.3,PayPal,Consumer,5,Yes
+ORD-10273,2023-08-18,CUST-224,North America,Los Angeles,Furniture,Lounge Recliner Sofa,1,747.49,0.1,672.74,87.05,Corporate Invoice,Small Business,4,No
+ORD-10274,2023-08-19,CUST-254,Latin America,Mexico City,Electronics,Noise-Canceling Headphones,3,255.16,0.1,688.93,125.73,Direct Wire,Small Business,5,No
+ORD-10275,2023-08-17,CUST-334,Latin America,Mexico City,Furniture,Modern Minimalist Bookcase,5,205.57,0.05,976.46,152.7,Credit Card,Small Business,9,Yes
+ORD-10276,2023-08-19,CUST-305,Asia Pacific,Mumbai,Fashion & Apparel,Titanium Chrono Watch,3,285.74,0.0,857.22,258.81,Corporate Invoice,Corporate,4,No
+ORD-10277,2023-08-16,CUST-299,Latin America,Buenos Aires,Furniture,Solid Oak Conference Table,1,927.77,0.05,881.38,145.35,Direct Wire,Consumer,6,No
+ORD-10278,2023-08-22,CUST-119,Europe,London,Furniture,Solid Oak Conference Table,5,911.61,0.05,4330.15,769.75,Direct Wire,Consumer,5,No
+ORD-10279,2023-08-22,CUST-209,Asia Pacific,Singapore,Fashion & Apparel,Titanium Chrono Watch,4,297.04,0.0,1188.16,357.21,Corporate Invoice,Small Business,7,No
+ORD-10280,2023-08-23,CUST-331,Asia Pacific,Tokyo,Office Supplies,Recycled Multipurpose Paper,1,38.44,0.0,38.44,-2.05,Direct Wire,Small Business,9,No
+ORD-10281,2023-08-22,CUST-317,Europe,Paris,Electronics,Wireless Fast Charger,8,48.34,0.2,309.38,12.22,Credit Card,Consumer,1,No
+ORD-10282,2023-08-25,CUST-260,North America,Houston,Office Supplies,Heavy Duty Paper Shredder,1,130.12,0.2,104.1,10.32,PayPal,Small Business,3,No
+ORD-10283,2023-08-23,CUST-292,Asia Pacific,Singapore,Office Supplies,Desk Organization Tray,2,17.23,0.0,34.46,-5.94,Credit Card,Small Business,9,No
+ORD-10284,2023-08-26,CUST-107,Asia Pacific,Tokyo,Office Supplies,Recycled Multipurpose Paper,5,38.96,0.0,194.8,42.68,Corporate Invoice,Corporate,7,No
+ORD-10285,2023-08-25,CUST-282,Latin America,Buenos Aires,Furniture,Executive Ergonomic Chair,2,338.6,0.0,677.2,135.98,Credit Card,Corporate,5,Yes
+ORD-10286,2023-08-25,CUST-161,Asia Pacific,Singapore,Fashion & Apparel,Italian Leather Chelsea Boots,1,225.23,0.1,202.71,39.16,Corporate Invoice,Consumer,5,No
+ORD-10287,2023-08-29,CUST-317,North America,New York,Fashion & Apparel,Italian Leather Chelsea Boots,3,226.81,0.0,680.43,202.24,PayPal,Small Business,2,Yes
+ORD-10288,2023-08-28,CUST-117,North America,Chicago,Furniture,Modern Minimalist Bookcase,3,206.36,0.0,619.08,115.7,Credit Card,Corporate,9,No
+ORD-10289,2023-08-28,CUST-334,Asia Pacific,Seoul,Electronics,"Ergonomic Laptop 15""",3,1233.22,0.0,3699.66,1020.4,Corporate Invoice,Consumer,5,No
+ORD-10290,2023-08-26,CUST-145,North America,Toronto,Electronics,Wireless Fast Charger,1,48.3,0.05,45.88,-4.37,Corporate Invoice,Small Business,7,No
+ORD-10291,2023-08-28,CUST-336,North America,Toronto,Electronics,Wireless Fast Charger,1,47.59,0.3,33.31,-8.67,Direct Wire,Small Business,4,No
+ORD-10292,2023-08-29,CUST-164,Latin America,Sao Paulo,Office Supplies,Desk Organization Tray,8,18.85,0.05,143.26,16.77,Corporate Invoice,Consumer,5,Yes
+ORD-10293,2023-09-04,CUST-314,Europe,Madrid,Fashion & Apparel,Business Travel Backpack,1,87.31,0.1,78.58,3.75,PayPal,Small Business,9,No
+ORD-10294,2023-09-06,CUST-209,Europe,Paris,Fashion & Apparel,Merino Wool Blazer,2,253.98,0.0,507.96,149.55,PayPal,Consumer,2,No
+ORD-10295,2023-09-03,CUST-139,North America,Chicago,Fashion & Apparel,Merino Wool Blazer,4,258.57,0.1,930.85,210.06,Credit Card,Corporate,2,Yes
+ORD-10296,2023-09-01,CUST-331,North America,Chicago,Fashion & Apparel,Merino Wool Blazer,3,247.48,0.3,519.71,28.87,Corporate Invoice,Small Business,9,Yes
+ORD-10297,2023-09-01,CUST-177,North America,Toronto,Office Supplies,Recycled Multipurpose Paper,1,38.36,0.15,32.61,-7.76,Credit Card,Consumer,7,No
+ORD-10298,2023-09-08,CUST-159,Europe,London,Fashion & Apparel,Merino Wool Blazer,2,244.23,0.0,488.46,143.31,Direct Wire,Consumer,3,No
+ORD-10299,2023-09-09,CUST-318,Europe,Berlin,Office Supplies,Locking Storage Cabinet,5,214.19,0.0,1070.95,354.33,PayPal,Corporate,2,No
+ORD-10300,2023-09-07,CUST-117,Asia Pacific,Singapore,Office Supplies,Premium Gel Pen 20-Pack,4,24.09,0.2,77.09,-7.58,Corporate Invoice,Consumer,10,No
+ORD-10301,2023-09-04,CUST-292,Asia Pacific,Mumbai,Furniture,Adjustable Standing Desk,8,600.18,0.15,4081.22,410.73,Corporate Invoice,Small Business,3,No
+ORD-10302,2023-09-10,CUST-247,Asia Pacific,Sydney,Fashion & Apparel,Waterproof Trench Coat,4,189.3,0.05,719.34,185.21,Credit Card,Small Business,1,No
+ORD-10303,2023-09-06,CUST-164,Europe,Berlin,Electronics,Ultra Pro Smartphone,1,807.25,0.15,686.16,104.43,Credit Card,Consumer,1,No
+ORD-10304,2023-09-11,CUST-127,North America,Chicago,Fashion & Apparel,Italian Leather Chelsea Boots,2,218.16,0.0,436.32,126.62,PayPal,Consumer,2,No
+ORD-10305,2023-09-14,CUST-159,Asia Pacific,Mumbai,Furniture,Lounge Recliner Sofa,2,736.71,0.0,1473.42,306.15,Direct Wire,Small Business,6,No
+ORD-10306,2023-09-15,CUST-331,Latin America,Bogota,Electronics,"Ergonomic Laptop 15""",2,1197.44,0.05,2275.14,533.72,Corporate Invoice,Corporate,7,No
+ORD-10307,2023-09-15,CUST-219,Asia Pacific,Singapore,Furniture,Adjustable Standing Desk,3,575.38,0.05,1639.83,283.77,Direct Wire,Corporate,5,Yes
+ORD-10308,2023-09-13,CUST-286,Latin America,Sao Paulo,Office Supplies,Heavy Duty Paper Shredder,1,131.46,0.05,124.89,28.53,Credit Card,Consumer,2,No
+ORD-10309,2023-09-11,CUST-298,Latin America,Buenos Aires,Office Supplies,Premium Gel Pen 20-Pack,1,25.14,0.1,22.63,-4.28,Corporate Invoice,Corporate,1,No
+ORD-10310,2023-09-16,CUST-265,Europe,London,Furniture,Adjustable Standing Desk,3,588.47,0.0,1765.41,372.89,Credit Card,Small Business,1,No
+ORD-10311,2023-09-14,CUST-300,North America,Houston,Electronics,"Ergonomic Laptop 15""",3,1169.4,0.05,3332.79,787.7,PayPal,Corporate,8,Yes
+ORD-10312,2023-09-18,CUST-158,North America,Los Angeles,Electronics,4K Ultra Gaming Monitor,3,497.4,0.0,1492.2,402.32,Direct Wire,Small Business,1,No
+ORD-10313,2023-09-14,CUST-219,Europe,Paris,Furniture,Lounge Recliner Sofa,8,751.56,0.0,6012.48,1289.75,Direct Wire,Consumer,8,Yes
+ORD-10314,2023-09-16,CUST-284,Asia Pacific,Sydney,Furniture,Modern Minimalist Bookcase,3,201.61,0.0,604.83,112.56,Direct Wire,Consumer,9,No
+ORD-10315,2023-09-20,CUST-274,Europe,Paris,Fashion & Apparel,Business Travel Backpack,4,89.33,0.2,285.86,30.6,Direct Wire,Corporate,2,No
+ORD-10316,2023-09-17,CUST-336,Latin America,Bogota,Fashion & Apparel,Merino Wool Blazer,1,242.79,0.0,242.79,67.19,Direct Wire,Corporate,2,No
+ORD-10317,2023-09-20,CUST-342,Latin America,Mexico City,Office Supplies,Desk Organization Tray,1,17.31,0.05,16.44,-10.36,Credit Card,Small Business,8,No
+ORD-10318,2023-09-19,CUST-334,North America,Houston,Furniture,Modern Minimalist Bookcase,3,207.42,0.15,528.92,41.36,Corporate Invoice,Small Business,5,No
+ORD-10319,2023-09-21,CUST-117,Europe,Paris,Electronics,"Ergonomic Laptop 15""",2,1234.57,0.3,1728.4,77.06,PayPal,Corporate,9,Yes
+ORD-10320,2023-09-21,CUST-262,Asia Pacific,Singapore,Furniture,Executive Ergonomic Chair,3,346.35,0.15,883.19,79.44,PayPal,Corporate,5,No
+ORD-10321,2023-09-23,CUST-235,Latin America,Mexico City,Electronics,"Ergonomic Laptop 15""",3,1173.84,0.2,2817.22,350.74,Corporate Invoice,Consumer,1,No
+ORD-10322,2023-09-23,CUST-249,North America,Toronto,Fashion & Apparel,Merino Wool Blazer,1,251.12,0.0,251.12,69.86,PayPal,Corporate,2,No
+ORD-10323,2023-09-27,CUST-290,Asia Pacific,Sydney,Office Supplies,Premium Gel Pen 20-Pack,1,23.59,0.0,23.59,-7.24,Direct Wire,Small Business,7,No
+ORD-10324,2023-09-29,CUST-275,Europe,Madrid,Electronics,Noise-Canceling Headphones,1,243.81,0.2,195.05,14.86,PayPal,Small Business,1,Yes
+ORD-10325,2023-09-24,CUST-342,Asia Pacific,Singapore,Electronics,4K Ultra Gaming Monitor,2,511.17,0.1,920.11,170.62,Corporate Invoice,Consumer,7,No
+ORD-10326,2023-09-27,CUST-128,Asia Pacific,Tokyo,Electronics,4K Ultra Gaming Monitor,3,509.83,0.05,1453.02,336.86,Credit Card,Corporate,2,Yes
+ORD-10327,2023-09-27,CUST-302,Latin America,Santiago,Fashion & Apparel,Business Travel Backpack,3,84.59,0.15,215.7,29.26,Credit Card,Small Business,1,No
+ORD-10328,2023-09-30,CUST-318,Europe,Amsterdam,Electronics,Noise-Canceling Headphones,10,261.14,0.0,2611.4,693.19,PayPal,Consumer,7,No
+ORD-10329,2023-09-30,CUST-333,North America,Los Angeles,Fashion & Apparel,Business Travel Backpack,5,85.96,0.3,300.86,8.08,Credit Card,Corporate,5,Yes
+ORD-10330,2023-10-06,CUST-243,Latin America,Sao Paulo,Furniture,Adjustable Standing Desk,2,627.29,0.0,1254.58,263.01,PayPal,Corporate,3,No
+ORD-10331,2023-10-05,CUST-258,Europe,Paris,Fashion & Apparel,Waterproof Trench Coat,1,181.22,0.1,163.1,24.46,Direct Wire,Consumer,9,No
+ORD-10332,2023-10-02,CUST-332,Asia Pacific,Seoul,Furniture,Solid Oak Conference Table,1,908.27,0.1,817.44,108.03,Corporate Invoice,Small Business,5,No
+ORD-10333,2023-10-01,CUST-146,Europe,Amsterdam,Furniture,Solid Oak Conference Table,8,865.71,0.15,5886.83,604.83,PayPal,Consumer,5,No
+ORD-10334,2023-10-07,CUST-349,Latin America,Sao Paulo,Electronics,"Ergonomic Laptop 15""",5,1215.96,0.0,6079.8,1681.84,Direct Wire,Consumer,5,No
+ORD-10335,2023-10-08,CUST-174,North America,Chicago,Fashion & Apparel,Merino Wool Blazer,1,241.7,0.0,241.7,66.84,Direct Wire,Consumer,1,No
+ORD-10336,2023-10-03,CUST-332,Europe,Paris,Office Supplies,Locking Storage Cabinet,1,222.33,0.1,200.1,44.53,Credit Card,Consumer,2,No
+ORD-10337,2023-10-05,CUST-317,Asia Pacific,Mumbai,Furniture,Lounge Recliner Sofa,5,755.09,0.0,3775.45,810.1,Direct Wire,Corporate,5,No
+ORD-10338,2023-10-10,CUST-308,Asia Pacific,Seoul,Office Supplies,Heavy Duty Paper Shredder,1,128.88,0.0,128.88,29.61,Credit Card,Corporate,6,No
+ORD-10339,2023-10-07,CUST-128,Europe,Berlin,Furniture,Adjustable Standing Desk,2,620.62,0.2,992.99,51.51,Direct Wire,Small Business,7,No
+ORD-10340,2023-10-08,CUST-165,Asia Pacific,Tokyo,Office Supplies,Recycled Multipurpose Paper,1,37.56,0.2,30.05,-9.49,PayPal,Consumer,11,Yes
+ORD-10341,2023-10-12,CUST-148,North America,Los Angeles,Furniture,Modern Minimalist Bookcase,3,199.83,0.0,599.49,111.39,Direct Wire,Small Business,8,No
+ORD-10342,2023-10-11,CUST-153,Europe,Berlin,Office Supplies,Premium Gel Pen 20-Pack,4,23.32,0.1,83.95,0.09,PayPal,Consumer,8,No
+ORD-10343,2023-10-14,CUST-344,North America,New York,Furniture,Modern Minimalist Bookcase,1,204.76,0.0,204.76,29.55,PayPal,Small Business,7,No
+ORD-10344,2023-10-16,CUST-132,Asia Pacific,Sydney,Fashion & Apparel,Merino Wool Blazer,1,251.84,0.05,239.25,52.09,Corporate Invoice,Consumer,6,No
+ORD-10345,2023-10-12,CUST-165,Latin America,Santiago,Fashion & Apparel,Italian Leather Chelsea Boots,2,209.74,0.05,398.51,94.58,Corporate Invoice,Corporate,7,Yes
+ORD-10346,2023-10-14,CUST-119,Europe,Berlin,Electronics,Ultra Pro Smartphone,3,815.06,0.0,2445.18,664.15,Direct Wire,Corporate,9,No
+ORD-10347,2023-10-18,CUST-311,Latin America,Buenos Aires,Fashion & Apparel,Business Travel Backpack,1,84.85,0.15,72.12,-0.54,Credit Card,Corporate,7,Yes
+ORD-10348,2023-10-16,CUST-258,Latin America,Buenos Aires,Fashion & Apparel,Business Travel Backpack,2,88.57,0.0,177.14,38.68,PayPal,Corporate,6,No
+ORD-10349,2023-10-16,CUST-110,Asia Pacific,Sydney,Electronics,Ultra Pro Smartphone,1,759.6,0.2,607.68,68.5,Credit Card,Corporate,5,No
+ORD-10350,2023-10-16,CUST-227,Asia Pacific,Tokyo,Electronics,"Ergonomic Laptop 15""",4,1224.13,0.2,3917.22,491.24,PayPal,Small Business,5,No
+ORD-10351,2023-10-23,CUST-200,Latin America,Sao Paulo,Furniture,Modern Minimalist Bookcase,3,195.21,0.15,497.79,38.01,PayPal,Consumer,5,Yes
+ORD-10352,2023-10-21,CUST-249,Europe,Amsterdam,Electronics,4K Ultra Gaming Monitor,2,478.79,0.0,957.58,255.12,Corporate Invoice,Small Business,3,No
+ORD-10353,2023-10-18,CUST-242,Asia Pacific,Singapore,Office Supplies,Recycled Multipurpose Paper,4,38.75,0.0,155.0,36.25,Direct Wire,Consumer,5,Yes
+ORD-10354,2023-10-19,CUST-288,North America,Los Angeles,Furniture,Executive Ergonomic Chair,2,347.75,0.1,625.95,77.76,Direct Wire,Corporate,4,No
+ORD-10355,2023-10-22,CUST-324,Asia Pacific,Tokyo,Fashion & Apparel,Business Travel Backpack,1,88.02,0.1,79.22,3.91,PayPal,Corporate,11,No
+ORD-10356,2023-10-20,CUST-100,Latin America,Buenos Aires,Fashion & Apparel,Merino Wool Blazer,10,252.26,0.0,2522.6,769.23,Credit Card,Consumer,9,Yes
+ORD-10357,2023-10-26,CUST-346,North America,Chicago,Electronics,Wireless Fast Charger,2,48.95,0.0,97.9,9.41,Credit Card,Consumer,7,No
+ORD-10358,2023-10-23,CUST-109,North America,Chicago,Furniture,Adjustable Standing Desk,4,605.27,0.0,2421.08,514.64,PayPal,Small Business,5,Yes
+ORD-10359,2023-10-24,CUST-205,Asia Pacific,Tokyo,Electronics,4K Ultra Gaming Monitor,2,491.56,0.1,884.81,163.39,Corporate Invoice,Small Business,7,Yes
+ORD-10360,2023-10-23,CUST-136,North America,Los Angeles,Office Supplies,Heavy Duty Paper Shredder,1,134.88,0.05,128.14,29.54,Direct Wire,Consumer,2,No
+ORD-10361,2023-10-26,CUST-188,Asia Pacific,Sydney,Furniture,Executive Ergonomic Chair,1,353.72,0.0,353.72,67.32,PayPal,Corporate,3,No
+ORD-10362,2023-10-25,CUST-187,Asia Pacific,Sydney,Office Supplies,Desk Organization Tray,3,18.29,0.1,49.38,-6.92,Direct Wire,Consumer,8,No
+ORD-10363,2023-11-01,CUST-149,Latin America,Santiago,Fashion & Apparel,Merino Wool Blazer,2,258.65,0.0,517.3,147.54,PayPal,Corporate,7,No
+ORD-10364,2023-11-03,CUST-333,Latin America,Santiago,Electronics,Noise-Canceling Headphones,3,252.08,0.2,604.99,63.15,PayPal,Small Business,3,Yes
+ORD-10365,2023-10-29,CUST-275,Latin America,Santiago,Fashion & Apparel,Italian Leather Chelsea Boots,1,212.34,0.05,201.72,41.49,Direct Wire,Small Business,7,No
+ORD-10366,2023-11-01,CUST-105,North America,Los Angeles,Electronics,"Ergonomic Laptop 15""",1,1203.7,0.15,1023.14,155.88,Corporate Invoice,Consumer,8,No
+ORD-10367,2023-10-29,CUST-239,North America,Chicago,Fashion & Apparel,Waterproof Trench Coat,1,181.21,0.2,144.97,14.14,Credit Card,Small Business,2,No
+ORD-10368,2023-11-06,CUST-134,Europe,Berlin,Furniture,Lounge Recliner Sofa,1,714.52,0.0,714.52,141.69,PayPal,Corporate,9,No
+ORD-10369,2023-11-07,CUST-117,Europe,London,Office Supplies,Premium Gel Pen 20-Pack,2,24.46,0.0,48.92,-0.88,PayPal,Small Business,6,No
+ORD-10370,2023-11-05,CUST-187,North America,Los Angeles,Fashion & Apparel,Titanium Chrono Watch,3,292.61,0.0,877.83,260.41,PayPal,Small Business,9,Yes
+ORD-10371,2023-11-07,CUST-283,Asia Pacific,Sydney,Fashion & Apparel,Italian Leather Chelsea Boots,1,213.13,0.0,213.13,52.7,Corporate Invoice,Consumer,7,Yes
+ORD-10372,2023-11-03,CUST-251,North America,New York,Furniture,Lounge Recliner Sofa,1,764.56,0.1,688.1,84.27,Direct Wire,Small Business,6,No
+ORD-10373,2023-11-10,CUST-226,Europe,Amsterdam,Office Supplies,Desk Organization Tray,3,17.59,0.1,47.49,-7.44,PayPal,Corporate,8,No
+ORD-10374,2023-11-05,CUST-129,Asia Pacific,Sydney,Office Supplies,Recycled Multipurpose Paper,5,37.11,0.0,185.55,44.44,Corporate Invoice,Small Business,3,No
+ORD-10375,2023-11-12,CUST-230,North America,Houston,Office Supplies,Locking Storage Cabinet,2,210.59,0.0,421.18,129.41,PayPal,Consumer,7,Yes
+ORD-10376,2023-11-06,CUST-163,Europe,Paris,Fashion & Apparel,Titanium Chrono Watch,1,297.98,0.0,297.98,79.85,Corporate Invoice,Small Business,9,No
+ORD-10377,2023-11-06,CUST-276,North America,Houston,Electronics,"Ergonomic Laptop 15""",4,1238.65,0.1,4459.14,896.12,Corporate Invoice,Consumer,5,No
+ORD-10378,2023-11-09,CUST-279,Asia Pacific,Seoul,Furniture,Lounge Recliner Sofa,1,723.13,0.2,578.5,29.99,Corporate Invoice,Consumer,5,No
+ORD-10379,2023-11-13,CUST-152,Europe,Madrid,Electronics,4K Ultra Gaming Monitor,5,523.45,0.05,2486.39,582.45,Direct Wire,Small Business,2,No
+ORD-10380,2023-11-10,CUST-291,Asia Pacific,Sydney,Fashion & Apparel,Titanium Chrono Watch,1,313.68,0.0,313.68,84.88,Credit Card,Small Business,6,No
+ORD-10381,2023-11-14,CUST-154,Asia Pacific,Tokyo,Office Supplies,Locking Storage Cabinet,2,215.64,0.1,388.15,88.74,Direct Wire,Consumer,7,No
+ORD-10382,2023-11-14,CUST-338,Asia Pacific,Seoul,Electronics,"Ergonomic Laptop 15""",4,1234.15,0.0,4936.6,1364.25,Direct Wire,Small Business,1,No
+ORD-10383,2023-11-14,CUST-158,North America,New York,Fashion & Apparel,Business Travel Backpack,1,87.29,0.1,78.56,8.75,Corporate Invoice,Small Business,5,No
+ORD-10384,2023-11-15,CUST-139,North America,Toronto,Fashion & Apparel,Merino Wool Blazer,1,256.19,0.0,256.19,66.48,Corporate Invoice,Small Business,6,No
+ORD-10385,2023-11-14,CUST-237,Asia Pacific,Sydney,Office Supplies,Heavy Duty Paper Shredder,3,135.18,0.0,405.54,126.44,Corporate Invoice,Consumer,2,No
+ORD-10386,2023-11-21,CUST-336,North America,Los Angeles,Office Supplies,Recycled Multipurpose Paper,1,40.71,0.05,38.67,1.58,Direct Wire,Consumer,3,No
+ORD-10387,2023-11-19,CUST-275,North America,Chicago,Electronics,Ultra Pro Smartphone,1,785.79,0.2,628.63,66.22,Corporate Invoice,Small Business,8,No
+ORD-10388,2023-11-20,CUST-228,Latin America,Bogota,Electronics,4K Ultra Gaming Monitor,1,483.38,0.0,483.38,119.85,Credit Card,Corporate,12,No
+ORD-10389,2023-11-21,CUST-122,Asia Pacific,Tokyo,Office Supplies,Recycled Multipurpose Paper,1,38.74,0.05,36.8,-4.0,PayPal,Consumer,8,Yes
+ORD-10390,2023-11-24,CUST-290,Europe,Berlin,Electronics,"Ergonomic Laptop 15""",2,1179.49,0.0,2358.98,642.51,Corporate Invoice,Corporate,9,No
+ORD-10391,2023-11-19,CUST-148,Latin America,Buenos Aires,Furniture,Lounge Recliner Sofa,2,765.95,0.2,1225.52,72.79,Direct Wire,Consumer,2,No
+ORD-10392,2023-11-24,CUST-108,Asia Pacific,Singapore,Electronics,"Ergonomic Laptop 15""",2,1236.87,0.1,2226.37,443.41,Corporate Invoice,Small Business,1,No
+ORD-10393,2023-11-24,CUST-105,Asia Pacific,Seoul,Office Supplies,Desk Organization Tray,1,18.71,0.0,18.71,-3.95,PayPal,Consumer,3,No
+ORD-10394,2023-11-27,CUST-264,Latin America,Mexico City,Office Supplies,Heavy Duty Paper Shredder,4,131.78,0.0,527.12,161.49,Credit Card,Consumer,9,No
+ORD-10395,2023-11-24,CUST-321,Europe,Madrid,Fashion & Apparel,Titanium Chrono Watch,3,304.4,0.0,913.2,276.72,Credit Card,Small Business,3,No
+ORD-10396,2023-11-26,CUST-308,Asia Pacific,Singapore,Office Supplies,Premium Gel Pen 20-Pack,4,24.15,0.05,91.77,10.68,Direct Wire,Consumer,1,No
+ORD-10397,2023-11-27,CUST-156,Latin America,Bogota,Office Supplies,Locking Storage Cabinet,8,209.71,0.1,1509.91,387.23,Direct Wire,Consumer,4,Yes
+ORD-10398,2023-11-28,CUST-347,North America,Los Angeles,Furniture,Solid Oak Conference Table,1,860.82,0.1,774.74,96.84,Direct Wire,Small Business,7,No
+ORD-10399,2023-11-27,CUST-320,Europe,Amsterdam,Electronics,"Ergonomic Laptop 15""",1,1139.62,0.1,1025.66,199.76,Direct Wire,Corporate,4,No
+ORD-10400,2023-11-28,CUST-239,Europe,Madrid,Fashion & Apparel,Italian Leather Chelsea Boots,1,224.4,0.0,224.4,56.31,Direct Wire,Consumer,7,Yes
+ORD-10401,2023-11-26,CUST-246,Europe,Berlin,Electronics,Noise-Canceling Headphones,1,243.17,0.15,206.69,24.12,PayPal,Consumer,5,No
+ORD-10402,2023-11-27,CUST-195,Latin America,Sao Paulo,Office Supplies,Desk Organization Tray,1,18.77,0.3,13.14,-8.86,PayPal,Corporate,4,No
+ORD-10403,2023-12-02,CUST-174,Europe,Berlin,Fashion & Apparel,Business Travel Backpack,8,92.08,0.2,589.31,67.18,PayPal,Consumer,6,No
+ORD-10404,2023-12-04,CUST-323,North America,Toronto,Furniture,Solid Oak Conference Table,1,927.04,0.15,787.98,74.21,Credit Card,Consumer,1,No
+ORD-10405,2023-12-03,CUST-113,Asia Pacific,Sydney,Electronics,Wireless Fast Charger,2,49.42,0.0,98.84,14.68,Direct Wire,Consumer,5,No
+ORD-10406,2023-12-03,CUST-146,Asia Pacific,Singapore,Furniture,Executive Ergonomic Chair,3,361.68,0.0,1085.04,223.21,Corporate Invoice,Corporate,1,No
+ORD-10407,2023-12-06,CUST-325,Asia Pacific,Sydney,Electronics,Noise-Canceling Headphones,1,249.69,0.2,199.75,10.47,Credit Card,Small Business,9,No
+ORD-10408,2023-12-05,CUST-100,North America,Chicago,Office Supplies,Heavy Duty Paper Shredder,2,129.02,0.0,258.04,72.31,Corporate Invoice,Small Business,9,No
+ORD-10409,2023-12-09,CUST-163,Latin America,Bogota,Furniture,Solid Oak Conference Table,1,918.49,0.15,780.72,73.43,Corporate Invoice,Corporate,3,Yes
+ORD-10410,2023-12-05,CUST-100,North America,Toronto,Office Supplies,Heavy Duty Paper Shredder,4,132.99,0.0,531.96,163.19,Corporate Invoice,Small Business,6,No
+ORD-10411,2023-12-05,CUST-291,Europe,Paris,Electronics,Noise-Canceling Headphones,1,241.97,0.2,193.58,14.67,Direct Wire,Small Business,3,Yes
+ORD-10412,2023-12-09,CUST-205,Europe,Paris,Office Supplies,Heavy Duty Paper Shredder,1,127.87,0.0,127.87,34.25,Corporate Invoice,Small Business,1,No
+ORD-10413,2023-12-11,CUST-148,Europe,Paris,Fashion & Apparel,Italian Leather Chelsea Boots,4,211.48,0.0,845.92,252.69,Direct Wire,Consumer,5,No
+ORD-10414,2023-12-11,CUST-108,Latin America,Santiago,Electronics,4K Ultra Gaming Monitor,1,486.6,0.1,437.94,74.28,PayPal,Consumer,9,No
+ORD-10415,2023-12-08,CUST-195,Europe,Amsterdam,Office Supplies,Recycled Multipurpose Paper,1,40.03,0.1,36.03,-0.59,PayPal,Corporate,4,No
+ORD-10416,2023-12-16,CUST-227,Europe,Berlin,Furniture,Adjustable Standing Desk,2,584.6,0.0,1169.2,239.22,Credit Card,Consumer,6,No
+ORD-10417,2023-12-15,CUST-120,Latin America,Buenos Aires,Electronics,Ultra Pro Smartphone,3,803.93,0.0,2411.79,659.8,PayPal,Small Business,4,No
+ORD-10418,2023-12-13,CUST-168,Asia Pacific,Sydney,Office Supplies,Premium Gel Pen 20-Pack,8,23.18,0.0,185.44,31.9,Corporate Invoice,Small Business,7,No
+ORD-10419,2023-12-14,CUST-101,Asia Pacific,Tokyo,Fashion & Apparel,Italian Leather Chelsea Boots,10,227.78,0.3,1594.46,118.47,Direct Wire,Consumer,5,Yes
+ORD-10420,2023-12-14,CUST-279,Asia Pacific,Seoul,Fashion & Apparel,Merino Wool Blazer,1,259.93,0.15,220.94,30.35,Corporate Invoice,Small Business,9,Yes
+ORD-10421,2023-12-17,CUST-338,Latin America,Buenos Aires,Electronics,Ultra Pro Smartphone,3,824.55,0.05,2349.97,554.37,PayPal,Corporate,5,Yes
+ORD-10422,2023-12-17,CUST-188,North America,Houston,Office Supplies,Heavy Duty Paper Shredder,3,131.25,0.0,393.75,122.31,Credit Card,Small Business,1,Yes
+ORD-10423,2023-12-20,CUST-208,Asia Pacific,Singapore,Fashion & Apparel,Italian Leather Chelsea Boots,4,217.63,0.1,783.47,168.95,PayPal,Consumer,8,No
+ORD-10424,2023-12-17,CUST-210,Asia Pacific,Mumbai,Electronics,4K Ultra Gaming Monitor,2,487.89,0.0,975.78,255.22,Direct Wire,Consumer,7,No
+ORD-10425,2023-12-22,CUST-300,Europe,Madrid,Electronics,Noise-Canceling Headphones,3,250.82,0.05,714.84,152.85,PayPal,Consumer,9,No
+ORD-10426,2023-12-21,CUST-298,North America,Chicago,Fashion & Apparel,Italian Leather Chelsea Boots,2,209.32,0.0,418.64,115.96,Corporate Invoice,Corporate,7,No
+ORD-10427,2023-12-22,CUST-260,Asia Pacific,Tokyo,Electronics,Wireless Fast Charger,1,51.41,0.05,48.84,-3.66,Direct Wire,Consumer,6,No
+ORD-10428,2023-12-19,CUST-194,Asia Pacific,Mumbai,Electronics,Ultra Pro Smartphone,2,814.52,0.05,1547.59,357.29,Direct Wire,Small Business,7,Yes
+ORD-10429,2023-12-27,CUST-217,Europe,Amsterdam,Furniture,Executive Ergonomic Chair,1,356.53,0.05,338.7,46.31,PayPal,Corporate,8,No
+ORD-10430,2023-12-24,CUST-203,North America,Toronto,Office Supplies,Recycled Multipurpose Paper,4,38.3,0.0,153.2,35.62,Direct Wire,Consumer,2,No
+ORD-10431,2023-12-27,CUST-152,Europe,Berlin,Office Supplies,Locking Storage Cabinet,2,209.43,0.0,418.86,133.6,Direct Wire,Small Business,2,No
+ORD-10432,2023-12-26,CUST-192,Europe,Amsterdam,Furniture,Modern Minimalist Bookcase,3,201.4,0.3,422.94,-22.61,PayPal,Small Business,8,No
+ORD-10433,2023-12-28,CUST-107,Asia Pacific,Seoul,Office Supplies,Premium Gel Pen 20-Pack,5,24.77,0.05,117.66,16.27,Direct Wire,Corporate,5,No
+ORD-10434,2023-12-28,CUST-324,Asia Pacific,Tokyo,Furniture,Executive Ergonomic Chair,1,344.35,0.0,344.35,65.26,Corporate Invoice,Consumer,3,No
+ORD-10435,2023-12-24,CUST-195,Asia Pacific,Sydney,Furniture,Executive Ergonomic Chair,2,334.02,0.15,567.83,48.04,Corporate Invoice,Small Business,3,No
+ORD-10436,2023-12-28,CUST-204,Latin America,Mexico City,Fashion & Apparel,Italian Leather Chelsea Boots,3,228.5,0.2,548.4,77.73,Credit Card,Corporate,3,No
+ORD-10437,2024-01-03,CUST-257,Asia Pacific,Mumbai,Electronics,Noise-Canceling Headphones,1,250.17,0.0,250.17,54.55,Corporate Invoice,Small Business,11,Yes
+ORD-10438,2023-12-26,CUST-241,Europe,Paris,Office Supplies,Heavy Duty Paper Shredder,1,124.99,0.0,124.99,28.25,PayPal,Consumer,8,No
+ORD-10439,2023-12-28,CUST-117,Asia Pacific,Singapore,Electronics,"Ergonomic Laptop 15""",3,1196.04,0.0,3588.12,984.17,PayPal,Small Business,9,No
+ORD-10440,2024-01-03,CUST-301,North America,Houston,Office Supplies,Locking Storage Cabinet,1,215.62,0.0,215.62,59.97,Direct Wire,Consumer,6,No
+ORD-10441,2024-01-04,CUST-175,Latin America,Bogota,Electronics,Ultra Pro Smartphone,1,762.9,0.2,610.32,63.84,PayPal,Small Business,6,No
+ORD-10442,2023-12-30,CUST-273,North America,Los Angeles,Office Supplies,Recycled Multipurpose Paper,2,38.22,0.0,76.44,13.75,Corporate Invoice,Corporate,2,Yes
+ORD-10443,2024-01-05,CUST-307,North America,Chicago,Office Supplies,Premium Gel Pen 20-Pack,2,22.93,0.0,45.86,3.05,PayPal,Corporate,5,No
+ORD-10444,2024-01-06,CUST-155,Europe,Madrid,Office Supplies,Heavy Duty Paper Shredder,3,128.0,0.05,364.8,98.5,PayPal,Consumer,2,No
+ORD-10445,2024-01-03,CUST-310,Latin America,Buenos Aires,Fashion & Apparel,Titanium Chrono Watch,2,291.63,0.0,583.26,173.64,Corporate Invoice,Consumer,3,No
+ORD-10446,2024-01-10,CUST-181,Asia Pacific,Singapore,Fashion & Apparel,Waterproof Trench Coat,1,189.79,0.2,151.83,15.31,Direct Wire,Small Business,2,Yes
+ORD-10447,2024-01-04,CUST-232,Europe,Paris,Office Supplies,Desk Organization Tray,2,17.45,0.05,33.15,-2.64,Corporate Invoice,Small Business,1,No
+ORD-10448,2024-01-05,CUST-225,Latin America,Bogota,Office Supplies,Recycled Multipurpose Paper,2,38.93,0.2,62.29,-0.54,Corporate Invoice,Small Business,4,No
+ORD-10449,2024-01-10,CUST-339,North America,Houston,Office Supplies,Recycled Multipurpose Paper,3,38.24,0.0,114.72,19.65,PayPal,Consumer,6,No
+ORD-10450,2024-01-09,CUST-311,North America,Toronto,Fashion & Apparel,Waterproof Trench Coat,1,191.87,0.2,153.5,10.59,PayPal,Corporate,7,No
+ORD-10451,2024-01-10,CUST-161,Europe,Madrid,Electronics,"Ergonomic Laptop 15""",1,1168.47,0.05,1110.05,258.69,PayPal,Consumer,5,No
+ORD-10452,2024-01-07,CUST-226,North America,Chicago,Office Supplies,Desk Organization Tray,1,17.6,0.1,15.84,-6.14,Direct Wire,Small Business,3,No
+ORD-10453,2024-01-11,CUST-156,Asia Pacific,Seoul,Furniture,Adjustable Standing Desk,1,619.63,0.0,619.63,125.82,Corporate Invoice,Consumer,5,Yes
+ORD-10454,2024-01-17,CUST-112,Latin America,Santiago,Fashion & Apparel,Waterproof Trench Coat,1,194.3,0.3,136.01,2.42,PayPal,Consumer,5,No
+ORD-10455,2024-01-12,CUST-249,Europe,Amsterdam,Electronics,"Ergonomic Laptop 15""",1,1160.77,0.1,1044.69,203.66,Direct Wire,Corporate,4,No
+ORD-10456,2024-01-14,CUST-311,North America,Chicago,Office Supplies,Desk Organization Tray,5,18.43,0.0,92.15,6.75,PayPal,Corporate,8,No
+ORD-10457,2024-01-14,CUST-108,North America,Toronto,Electronics,"Ergonomic Laptop 15""",5,1207.89,0.15,5133.53,834.37,PayPal,Small Business,7,No
+ORD-10458,2024-01-18,CUST-133,Latin America,Mexico City,Furniture,Modern Minimalist Bookcase,3,193.35,0.2,464.04,11.98,PayPal,Consumer,14,No
+ORD-10459,2024-01-20,CUST-282,Europe,Paris,Furniture,Adjustable Standing Desk,1,617.85,0.2,494.28,24.1,Corporate Invoice,Corporate,5,No
+ORD-10460,2024-01-16,CUST-312,Europe,Paris,Fashion & Apparel,Waterproof Trench Coat,1,180.09,0.0,180.09,47.13,Direct Wire,Small Business,5,No
+ORD-10461,2024-01-20,CUST-280,Europe,Paris,Furniture,Solid Oak Conference Table,1,884.11,0.1,795.7,99.88,PayPal,Small Business,9,No
+ORD-10462,2024-01-20,CUST-243,North America,Los Angeles,Office Supplies,Heavy Duty Paper Shredder,1,127.41,0.05,121.04,22.33,PayPal,Small Business,8,No
+ORD-10463,2024-01-20,CUST-308,Asia Pacific,Mumbai,Furniture,Lounge Recliner Sofa,3,752.82,0.0,2258.46,481.36,Corporate Invoice,Small Business,5,No
+ORD-10464,2024-01-23,CUST-175,Latin America,Buenos Aires,Furniture,Solid Oak Conference Table,2,908.78,0.05,1726.68,297.12,Credit Card,Small Business,8,No
+ORD-10465,2024-01-20,CUST-201,Europe,London,Electronics,Noise-Canceling Headphones,1,242.37,0.0,242.37,52.36,Credit Card,Consumer,8,No
+ORD-10466,2024-01-26,CUST-299,Latin America,Sao Paulo,Furniture,Solid Oak Conference Table,4,863.52,0.05,3281.38,575.85,Direct Wire,Corporate,9,No
+ORD-10467,2024-01-19,CUST-306,Latin America,Sao Paulo,Furniture,Modern Minimalist Bookcase,3,201.37,0.0,604.11,117.4,Credit Card,Corporate,1,No
+ORD-10468,2024-01-27,CUST-178,Asia Pacific,Singapore,Electronics,"Ergonomic Laptop 15""",4,1142.67,0.05,4342.15,1029.97,Corporate Invoice,Corporate,6,No
+ORD-10469,2024-01-24,CUST-197,Latin America,Mexico City,Office Supplies,Premium Gel Pen 20-Pack,5,23.57,0.2,94.28,-6.64,Corporate Invoice,Consumer,14,No
+ORD-10470,2024-01-29,CUST-270,Asia Pacific,Singapore,Electronics,"Ergonomic Laptop 15""",1,1235.09,0.0,1235.09,330.33,Credit Card,Consumer,6,No
+ORD-10471,2024-01-29,CUST-154,North America,Chicago,Furniture,Executive Ergonomic Chair,3,353.96,0.0,1061.88,213.11,PayPal,Corporate,8,No
+ORD-10472,2024-01-24,CUST-301,North America,Toronto,Furniture,Lounge Recliner Sofa,2,772.45,0.0,1544.9,326.88,Direct Wire,Corporate,5,No
+ORD-10473,2024-01-30,CUST-229,Asia Pacific,Seoul,Fashion & Apparel,Italian Leather Chelsea Boots,1,224.59,0.0,224.59,61.37,Credit Card,Consumer,4,No
+ORD-10474,2024-02-02,CUST-138,Europe,Berlin,Furniture,Executive Ergonomic Chair,1,345.54,0.1,310.99,29.59,PayPal,Small Business,8,No
+ORD-10475,2024-01-31,CUST-123,Europe,Madrid,Fashion & Apparel,Titanium Chrono Watch,1,312.08,0.0,312.08,84.37,Corporate Invoice,Small Business,8,No
+ORD-10476,2024-01-27,CUST-233,Europe,Amsterdam,Office Supplies,Premium Gel Pen 20-Pack,3,24.98,0.0,74.94,5.73,PayPal,Small Business,6,No
+ORD-10477,2024-02-05,CUST-102,Latin America,Buenos Aires,Electronics,Noise-Canceling Headphones,2,258.15,0.0,516.3,131.56,Credit Card,Corporate,4,Yes
+ORD-10478,2024-02-03,CUST-191,Asia Pacific,Mumbai,Office Supplies,Locking Storage Cabinet,3,221.42,0.05,631.05,181.7,Direct Wire,Consumer,1,No
+ORD-10479,2024-02-04,CUST-161,Europe,London,Fashion & Apparel,Waterproof Trench Coat,2,195.3,0.15,332.01,50.89,Direct Wire,Small Business,8,Yes
+ORD-10480,2024-02-05,CUST-170,Europe,Berlin,Electronics,Ultra Pro Smartphone,2,807.74,0.15,1373.16,217.0,Corporate Invoice,Small Business,5,No
+ORD-10481,2024-01-31,CUST-268,Asia Pacific,Singapore,Furniture,Modern Minimalist Bookcase,1,190.68,0.05,181.15,22.56,Credit Card,Small Business,2,No
+ORD-10482,2024-02-01,CUST-280,North America,Houston,Furniture,Solid Oak Conference Table,5,881.37,0.1,3966.17,549.59,Credit Card,Consumer,6,No
+ORD-10483,2024-02-02,CUST-153,Europe,Berlin,Electronics,Wireless Fast Charger,2,48.6,0.0,97.2,14.22,Corporate Invoice,Small Business,1,No
+ORD-10484,2024-02-03,CUST-317,North America,Houston,Fashion & Apparel,Waterproof Trench Coat,3,195.64,0.0,586.92,172.31,Credit Card,Small Business,3,No
+ORD-10485,2024-02-11,CUST-275,Europe,Madrid,Office Supplies,Premium Gel Pen 20-Pack,3,24.24,0.1,65.45,2.5,Direct Wire,Small Business,3,No
+ORD-10486,2024-02-08,CUST-103,North America,New York,Electronics,Noise-Canceling Headphones,10,237.93,0.0,2379.3,628.2,PayPal,Small Business,9,No
+ORD-10487,2024-02-06,CUST-321,North America,Houston,Furniture,Modern Minimalist Bookcase,1,205.38,0.05,195.11,25.11,PayPal,Small Business,2,No
+ORD-10488,2024-02-06,CUST-130,Asia Pacific,Tokyo,Office Supplies,Recycled Multipurpose Paper,3,39.03,0.15,99.53,8.14,Direct Wire,Consumer,4,No
+ORD-10489,2024-02-12,CUST-117,Asia Pacific,Seoul,Fashion & Apparel,Business Travel Backpack,1,87.41,0.0,87.41,17.47,PayPal,Small Business,1,No
+ORD-10490,2024-02-11,CUST-121,Asia Pacific,Mumbai,Electronics,Ultra Pro Smartphone,2,823.7,0.0,1647.4,448.27,Direct Wire,Corporate,4,No
+ORD-10491,2024-02-08,CUST-216,Latin America,Santiago,Fashion & Apparel,Waterproof Trench Coat,1,182.5,0.0,182.5,47.9,Direct Wire,Small Business,5,Yes
+ORD-10492,2024-02-14,CUST-174,Latin America,Sao Paulo,Furniture,Modern Minimalist Bookcase,3,207.21,0.1,559.47,65.62,PayPal,Corporate,5,No
+ORD-10493,2024-02-17,CUST-314,Asia Pacific,Singapore,Furniture,Solid Oak Conference Table,2,870.33,0.05,1653.63,283.79,PayPal,Small Business,9,No
+ORD-10494,2024-02-13,CUST-211,North America,Chicago,Electronics,Noise-Canceling Headphones,1,241.64,0.1,217.48,34.08,Corporate Invoice,Corporate,1,No
+ORD-10495,2024-02-17,CUST-320,Asia Pacific,Mumbai,Electronics,4K Ultra Gaming Monitor,1,506.73,0.05,481.39,101.24,Credit Card,Consumer,11,No
+ORD-10496,2024-02-14,CUST-255,North America,Toronto,Office Supplies,Premium Gel Pen 20-Pack,1,24.95,0.0,24.95,-1.77,Corporate Invoice,Corporate,4,No
+ORD-10497,2024-02-17,CUST-134,Europe,Paris,Electronics,Noise-Canceling Headphones,10,242.55,0.2,1940.4,219.25,PayPal,Small Business,5,No
+ORD-10498,2024-02-21,CUST-175,North America,Toronto,Furniture,Modern Minimalist Bookcase,1,191.34,0.1,172.21,14.47,PayPal,Small Business,5,No
+ORD-10499,2024-02-19,CUST-252,Asia Pacific,Sydney,Furniture,Solid Oak Conference Table,5,898.95,0.0,4494.75,963.35,Corporate Invoice,Consumer,8,Yes
+ORD-10500,2024-02-18,CUST-189,Latin America,Mexico City,Fashion & Apparel,Italian Leather Chelsea Boots,1,223.69,0.1,201.32,33.82,Corporate Invoice,Consumer,12,No
+ORD-10501,2024-02-21,CUST-207,Europe,Paris,Electronics,Ultra Pro Smartphone,2,828.29,0.3,1159.61,50.78,Direct Wire,Small Business,2,No
+ORD-10502,2024-02-24,CUST-119,Europe,London,Furniture,Adjustable Standing Desk,1,592.61,0.0,592.61,114.87,Corporate Invoice,Small Business,6,No
+ORD-10503,2024-02-26,CUST-202,Asia Pacific,Sydney,Furniture,Modern Minimalist Bookcase,2,202.31,0.15,343.93,23.97,Direct Wire,Corporate,1,No
+ORD-10504,2024-02-26,CUST-287,North America,New York,Electronics,Ultra Pro Smartphone,1,778.63,0.1,700.77,128.16,PayPal,Consumer,6,No
+ORD-10505,2024-02-26,CUST-291,Europe,Madrid,Fashion & Apparel,Merino Wool Blazer,1,257.91,0.0,257.91,72.03,Credit Card,Consumer,3,Yes
+ORD-10506,2024-02-23,CUST-304,Europe,Paris,Office Supplies,Heavy Duty Paper Shredder,5,122.71,0.0,613.55,189.24,PayPal,Consumer,9,No
+ORD-10507,2024-02-27,CUST-223,Asia Pacific,Mumbai,Office Supplies,Locking Storage Cabinet,3,223.88,0.15,570.89,115.09,Direct Wire,Corporate,6,No
+ORD-10508,2024-03-02,CUST-338,North America,Los Angeles,Fashion & Apparel,Business Travel Backpack,1,91.47,0.0,91.47,18.77,Direct Wire,Small Business,4,No
+ORD-10509,2024-02-28,CUST-118,North America,Houston,Office Supplies,Desk Organization Tray,3,18.75,0.0,56.25,-0.81,Corporate Invoice,Consumer,9,No
+ORD-10510,2024-03-03,CUST-172,North America,Los Angeles,Electronics,Wireless Fast Charger,1,50.11,0.05,47.6,1.04,PayPal,Small Business,3,No
+ORD-10511,2024-03-04,CUST-269,Europe,Berlin,Office Supplies,Locking Storage Cabinet,4,224.81,0.15,764.35,163.53,PayPal,Consumer,3,No
+ORD-10512,2024-03-03,CUST-206,North America,Toronto,Fashion & Apparel,Titanium Chrono Watch,3,292.72,0.0,878.16,265.51,PayPal,Small Business,3,No
+ORD-10513,2024-02-27,CUST-332,North America,Toronto,Fashion & Apparel,Titanium Chrono Watch,1,303.56,0.0,303.56,86.64,Credit Card,Corporate,1,No
+ORD-10514,2024-03-07,CUST-117,Latin America,Sao Paulo,Furniture,Adjustable Standing Desk,3,596.79,0.0,1790.37,373.38,PayPal,Corporate,6,No
+ORD-10515,2024-03-07,CUST-197,Europe,London,Furniture,Executive Ergonomic Chair,1,350.36,0.05,332.84,45.24,Corporate Invoice,Consumer,6,No
+ORD-10516,2024-03-03,CUST-136,Latin America,Mexico City,Furniture,Modern Minimalist Bookcase,8,190.22,0.1,1369.58,165.59,Credit Card,Small Business,11,Yes
+ORD-10517,2024-03-04,CUST-204,Europe,Madrid,Furniture,Modern Minimalist Bookcase,4,205.75,0.1,740.7,84.4,Corporate Invoice,Consumer,8,No
+ORD-10518,2024-03-06,CUST-172,North America,Toronto,Furniture,Adjustable Standing Desk,1,577.06,0.1,519.35,64.81,Corporate Invoice,Small Business,1,No
+ORD-10519,2024-03-03,CUST-350,Asia Pacific,Mumbai,Electronics,"Ergonomic Laptop 15""",2,1244.24,0.0,2488.48,678.77,Corporate Invoice,Small Business,8,No
+ORD-10520,2024-03-07,CUST-101,Latin America,Mexico City,Furniture,Executive Ergonomic Chair,1,358.61,0.15,304.82,17.27,Direct Wire,Consumer,9,No
+ORD-10521,2024-03-04,CUST-317,North America,Los Angeles,Office Supplies,Locking Storage Cabinet,1,216.47,0.3,151.53,3.44,Credit Card,Small Business,7,No
+ORD-10522,2024-03-05,CUST-149,North America,Houston,Furniture,Solid Oak Conference Table,5,864.8,0.0,4324.0,925.78,Corporate Invoice,Consumer,9,No
+ORD-10523,2024-03-08,CUST-111,Asia Pacific,Mumbai,Fashion & Apparel,Italian Leather Chelsea Boots,1,220.68,0.15,187.58,23.42,PayPal,Small Business,7,No
+ORD-10524,2024-03-08,CUST-284,Asia Pacific,Tokyo,Electronics,Ultra Pro Smartphone,3,769.01,0.0,2307.03,625.47,Direct Wire,Corporate,7,Yes
+ORD-10525,2024-03-12,CUST-336,Europe,Berlin,Office Supplies,Heavy Duty Paper Shredder,1,126.04,0.15,107.13,9.94,Credit Card,Corporate,7,Yes
+ORD-10526,2024-03-08,CUST-243,Asia Pacific,Tokyo,Fashion & Apparel,Waterproof Trench Coat,5,195.18,0.2,780.72,107.22,Credit Card,Corporate,8,No
+ORD-10527,2024-03-15,CUST-204,North America,Houston,Electronics,4K Ultra Gaming Monitor,3,496.14,0.05,1414.0,327.4,Direct Wire,Consumer,1,No
+ORD-10528,2024-03-16,CUST-200,Europe,Berlin,Fashion & Apparel,Titanium Chrono Watch,3,296.73,0.1,801.17,180.79,Credit Card,Consumer,1,No
+ORD-10529,2024-03-12,CUST-265,Asia Pacific,Tokyo,Office Supplies,Recycled Multipurpose Paper,3,39.35,0.05,112.15,19.55,PayPal,Corporate,4,Yes
+ORD-10530,2024-03-20,CUST-226,North America,Chicago,Furniture,Adjustable Standing Desk,4,595.85,0.0,2383.4,506.35,Direct Wire,Corporate,2,No
+ORD-10531,2024-03-18,CUST-257,Europe,Amsterdam,Furniture,Modern Minimalist Bookcase,1,198.4,0.15,168.64,7.63,PayPal,Corporate,5,No
+ORD-10532,2024-03-20,CUST-200,North America,Los Angeles,Electronics,Noise-Canceling Headphones,5,245.22,0.1,1103.49,200.72,Direct Wire,Corporate,7,No
+ORD-10533,2024-03-18,CUST-230,Asia Pacific,Sydney,Fashion & Apparel,Business Travel Backpack,2,91.38,0.05,173.62,36.05,Credit Card,Corporate,3,No
+ORD-10534,2024-03-18,CUST-340,Latin America,Bogota,Fashion & Apparel,Italian Leather Chelsea Boots,2,227.66,0.3,318.72,12.28,Corporate Invoice,Consumer,7,No
+ORD-10535,2024-03-17,CUST-125,Latin America,Bogota,Office Supplies,Heavy Duty Paper Shredder,1,130.44,0.15,110.87,15.83,Credit Card,Corporate,3,No
+ORD-10536,2024-03-21,CUST-342,Latin America,Buenos Aires,Office Supplies,Desk Organization Tray,2,17.82,0.0,35.64,-5.53,PayPal,Small Business,8,Yes
+ORD-10537,2024-03-23,CUST-236,North America,Toronto,Electronics,Wireless Fast Charger,1,47.87,0.0,47.87,2.9,Corporate Invoice,Small Business,2,Yes
+ORD-10538,2024-03-23,CUST-214,Europe,Madrid,Electronics,"Ergonomic Laptop 15""",2,1150.34,0.0,2300.68,626.19,Direct Wire,Consumer,9,No
+ORD-10539,2024-03-25,CUST-191,Latin America,Santiago,Office Supplies,Recycled Multipurpose Paper,1,37.54,0.05,35.66,0.64,PayPal,Consumer,4,Yes
+ORD-10540,2024-03-22,CUST-324,Europe,London,Fashion & Apparel,Merino Wool Blazer,2,240.21,0.2,384.34,52.34,PayPal,Corporate,5,Yes
+ORD-10541,2024-03-23,CUST-129,Asia Pacific,Tokyo,Furniture,Adjustable Standing Desk,3,575.45,0.15,1467.4,137.25,Credit Card,Consumer,12,No
+ORD-10542,2024-03-29,CUST-261,Asia Pacific,Singapore,Furniture,Executive Ergonomic Chair,1,337.95,0.05,321.05,48.09,Corporate Invoice,Small Business,1,No
+ORD-10543,2024-03-27,CUST-188,Asia Pacific,Mumbai,Furniture,Lounge Recliner Sofa,1,779.37,0.0,779.37,155.96,Corporate Invoice,Corporate,9,No
+ORD-10544,2024-03-23,CUST-322,Europe,Berlin,Furniture,Modern Minimalist Bookcase,10,191.78,0.1,1726.02,212.27,Direct Wire,Consumer,7,No
+ORD-10545,2024-03-25,CUST-134,Europe,London,Electronics,Ultra Pro Smartphone,4,818.82,0.0,3275.28,894.08,PayPal,Consumer,9,No
+ORD-10546,2024-03-30,CUST-336,Europe,Paris,Electronics,Ultra Pro Smartphone,4,830.38,0.05,3155.44,742.19,Corporate Invoice,Small Business,6,No
+ORD-10547,2024-04-03,CUST-126,North America,Chicago,Office Supplies,Desk Organization Tray,5,17.25,0.0,86.25,9.69,PayPal,Consumer,3,No
+ORD-10548,2024-03-30,CUST-335,Europe,London,Furniture,Adjustable Standing Desk,1,621.04,0.1,558.94,65.55,Credit Card,Consumer,9,No
+ORD-10549,2024-04-04,CUST-174,Latin America,Sao Paulo,Electronics,Noise-Canceling Headphones,4,258.97,0.0,1035.88,272.05,Credit Card,Corporate,4,No
+ORD-10550,2024-03-28,CUST-332,Europe,Madrid,Office Supplies,Premium Gel Pen 20-Pack,4,23.67,0.2,75.74,-2.85,PayPal,Corporate,2,No
+ORD-10551,2024-03-30,CUST-330,Latin America,Buenos Aires,Fashion & Apparel,Waterproof Trench Coat,2,196.69,0.1,354.04,68.74,Direct Wire,Corporate,8,Yes
+ORD-10552,2024-04-01,CUST-201,Asia Pacific,Sydney,Electronics,"Ergonomic Laptop 15""",1,1246.65,0.1,1121.99,219.51,Direct Wire,Corporate,5,No
+ORD-10553,2024-04-03,CUST-305,North America,New York,Electronics,Noise-Canceling Headphones,5,245.42,0.1,1104.39,200.9,Corporate Invoice,Consumer,8,No
+ORD-10554,2024-04-07,CUST-336,North America,Houston,Fashion & Apparel,Waterproof Trench Coat,10,183.55,0.05,1743.72,459.6,PayPal,Corporate,3,No
+ORD-10555,2024-04-10,CUST-202,Europe,Berlin,Fashion & Apparel,Business Travel Backpack,1,86.12,0.0,86.12,12.06,Credit Card,Consumer,6,No
+ORD-10556,2024-04-02,CUST-176,North America,Houston,Electronics,Wireless Fast Charger,3,47.36,0.05,134.98,12.23,Direct Wire,Corporate,7,No
+ORD-10557,2024-04-03,CUST-192,North America,Chicago,Electronics,Noise-Canceling Headphones,1,242.97,0.1,218.67,34.33,PayPal,Corporate,4,No
+ORD-10558,2024-04-06,CUST-199,North America,New York,Furniture,Solid Oak Conference Table,2,901.25,0.2,1442.0,87.94,Direct Wire,Small Business,3,No
+ORD-10559,2024-04-09,CUST-112,North America,Chicago,Furniture,Adjustable Standing Desk,2,589.84,0.0,1179.68,241.53,PayPal,Consumer,8,Yes
+ORD-10560,2024-04-13,CUST-111,Asia Pacific,Tokyo,Electronics,"Ergonomic Laptop 15""",1,1176.56,0.1,1058.9,201.57,Credit Card,Consumer,6,No
+ORD-10561,2024-04-08,CUST-121,Latin America,Bogota,Fashion & Apparel,Italian Leather Chelsea Boots,2,221.44,0.1,398.59,84.65,Direct Wire,Small Business,5,No
+ORD-10562,2024-04-14,CUST-277,Asia Pacific,Mumbai,Furniture,Solid Oak Conference Table,4,875.59,0.1,3152.12,434.06,Credit Card,Consumer,9,No
+ORD-10563,2024-04-11,CUST-146,North America,New York,Furniture,Executive Ergonomic Chair,1,363.05,0.05,344.9,52.44,Corporate Invoice,Corporate,4,No
+ORD-10564,2024-04-10,CUST-175,Asia Pacific,Sydney,Fashion & Apparel,Business Travel Backpack,4,92.55,0.05,351.69,76.35,Direct Wire,Consumer,6,No
+ORD-10565,2024-04-17,CUST-284,North America,Houston,Fashion & Apparel,Titanium Chrono Watch,3,286.82,0.0,860.46,254.85,Credit Card,Small Business,7,No
+ORD-10566,2024-04-14,CUST-155,North America,Los Angeles,Electronics,Noise-Canceling Headphones,2,246.46,0.2,394.34,33.26,Corporate Invoice,Corporate,6,No
+ORD-10567,2024-04-20,CUST-346,Europe,London,Electronics,Noise-Canceling Headphones,2,257.54,0.15,437.82,60.33,Corporate Invoice,Corporate,1,No
+ORD-10568,2024-04-13,CUST-205,Asia Pacific,Tokyo,Furniture,Solid Oak Conference Table,2,891.33,0.1,1604.39,214.64,PayPal,Small Business,8,No
+ORD-10569,2024-04-15,CUST-149,Europe,Madrid,Fashion & Apparel,Business Travel Backpack,2,89.71,0.1,161.48,26.56,Credit Card,Consumer,5,No
+ORD-10570,2024-04-14,CUST-172,Latin America,Buenos Aires,Fashion & Apparel,Italian Leather Chelsea Boots,2,222.41,0.0,444.82,129.34,Credit Card,Corporate,1,No
+ORD-10571,2024-04-21,CUST-312,Europe,Paris,Electronics,Wireless Fast Charger,3,49.52,0.15,126.28,5.65,Direct Wire,Consumer,2,No
+ORD-10572,2024-04-24,CUST-183,Asia Pacific,Tokyo,Fashion & Apparel,Titanium Chrono Watch,1,300.64,0.3,210.45,4.49,Credit Card,Small Business,10,Yes
+ORD-10573,2024-04-17,CUST-258,Asia Pacific,Singapore,Fashion & Apparel,Business Travel Backpack,8,90.14,0.05,685.06,160.53,PayPal,Corporate,6,No
+ORD-10574,2024-04-20,CUST-322,North America,Chicago,Electronics,"Ergonomic Laptop 15""",5,1186.37,0.0,5931.85,1640.42,Corporate Invoice,Small Business,2,No
+ORD-10575,2024-04-22,CUST-186,North America,Houston,Furniture,Solid Oak Conference Table,10,868.38,0.0,8683.8,1872.44,Credit Card,Consumer,9,No
+ORD-10576,2024-04-21,CUST-338,Latin America,Sao Paulo,Furniture,Executive Ergonomic Chair,3,353.52,0.2,848.45,43.89,Corporate Invoice,Corporate,4,No
+ORD-10577,2024-04-20,CUST-313,Latin America,Buenos Aires,Electronics,"Ergonomic Laptop 15""",3,1150.08,0.15,2932.7,475.73,PayPal,Consumer,1,No
+ORD-10578,2024-04-29,CUST-200,North America,New York,Furniture,Solid Oak Conference Table,1,855.61,0.0,855.61,177.73,Direct Wire,Small Business,5,No
+ORD-10579,2024-04-23,CUST-300,North America,Los Angeles,Fashion & Apparel,Business Travel Backpack,2,87.18,0.1,156.92,25.45,Direct Wire,Small Business,4,No
+ORD-10580,2024-04-28,CUST-136,Europe,Berlin,Electronics,"Ergonomic Laptop 15""",3,1147.53,0.0,3442.59,943.43,Corporate Invoice,Small Business,6,No
+ORD-10581,2024-05-01,CUST-306,Latin America,Buenos Aires,Fashion & Apparel,Business Travel Backpack,2,92.96,0.0,185.92,41.49,Credit Card,Small Business,7,No
+ORD-10582,2024-04-30,CUST-308,Europe,Amsterdam,Office Supplies,Locking Storage Cabinet,1,223.75,0.1,201.38,44.88,Credit Card,Consumer,3,Yes
+ORD-10583,2024-05-01,CUST-209,Latin America,Bogota,Fashion & Apparel,Merino Wool Blazer,2,254.48,0.15,432.62,76.77,PayPal,Corporate,5,Yes
+ORD-10584,2024-05-02,CUST-126,Latin America,Mexico City,Electronics,Ultra Pro Smartphone,5,812.35,0.1,3655.58,728.89,Direct Wire,Consumer,2,No
+ORD-10585,2024-04-27,CUST-212,North America,Los Angeles,Fashion & Apparel,Business Travel Backpack,1,84.7,0.05,80.47,7.23,PayPal,Corporate,7,No
+ORD-10586,2024-05-03,CUST-156,North America,Los Angeles,Office Supplies,Premium Gel Pen 20-Pack,2,25.16,0.2,40.26,-4.95,PayPal,Consumer,2,No
+ORD-10587,2024-04-30,CUST-127,Europe,London,Office Supplies,Recycled Multipurpose Paper,4,37.65,0.1,135.54,14.27,Credit Card,Corporate,9,No
+ORD-10588,2024-05-04,CUST-221,Europe,Berlin,Office Supplies,Recycled Multipurpose Paper,1,37.91,0.05,36.01,-4.25,Corporate Invoice,Corporate,6,No
+ORD-10589,2024-05-05,CUST-308,Latin America,Sao Paulo,Electronics,4K Ultra Gaming Monitor,8,501.0,0.1,3607.2,706.48,Corporate Invoice,Consumer,12,No
+ORD-10590,2024-05-07,CUST-142,Latin America,Bogota,Electronics,4K Ultra Gaming Monitor,2,513.41,0.0,1026.82,274.51,Corporate Invoice,Corporate,2,No
+ORD-10591,2024-05-09,CUST-250,Latin America,Santiago,Electronics,"Ergonomic Laptop 15""",5,1210.8,0.05,5751.3,1369.19,Corporate Invoice,Consumer,11,No
+ORD-10592,2024-05-06,CUST-329,Asia Pacific,Seoul,Office Supplies,Heavy Duty Paper Shredder,3,133.6,0.0,400.8,124.78,Corporate Invoice,Small Business,1,No
+ORD-10593,2024-05-06,CUST-188,Asia Pacific,Singapore,Electronics,Wireless Fast Charger,8,51.42,0.1,370.22,47.9,Direct Wire,Consumer,3,No
+ORD-10594,2024-05-09,CUST-322,Asia Pacific,Mumbai,Office Supplies,Premium Gel Pen 20-Pack,4,23.47,0.1,84.49,5.23,Direct Wire,Small Business,2,No
+ORD-10595,2024-05-13,CUST-232,Latin America,Mexico City,Electronics,Ultra Pro Smartphone,5,814.61,0.0,4073.05,1119.95,Corporate Invoice,Small Business,1,No
+ORD-10596,2024-05-11,CUST-307,Asia Pacific,Sydney,Electronics,4K Ultra Gaming Monitor,3,486.46,0.05,1386.41,315.7,Direct Wire,Corporate,7,Yes
+ORD-10597,2024-05-14,CUST-113,Europe,Amsterdam,Furniture,Adjustable Standing Desk,1,591.78,0.1,532.6,66.73,Corporate Invoice,Corporate,1,No
+ORD-10598,2024-05-10,CUST-343,North America,Chicago,Fashion & Apparel,Waterproof Trench Coat,8,186.55,0.05,1417.78,372.52,Credit Card,Consumer,2,No
+ORD-10599,2024-05-13,CUST-163,Asia Pacific,Singapore,Fashion & Apparel,Waterproof Trench Coat,4,191.92,0.0,767.68,227.66,Corporate Invoice,Small Business,3,No
+ORD-10600,2024-05-13,CUST-249,Latin America,Sao Paulo,Fashion & Apparel,Waterproof Trench Coat,1,182.73,0.0,182.73,42.97,Credit Card,Small Business,8,No
+ORD-10601,2024-05-13,CUST-325,North America,Los Angeles,Furniture,Modern Minimalist Bookcase,1,193.45,0.0,193.45,32.06,Direct Wire,Consumer,1,No
+ORD-10602,2024-05-14,CUST-220,North America,Chicago,Fashion & Apparel,Waterproof Trench Coat,5,193.29,0.05,918.13,233.87,PayPal,Small Business,8,No
+ORD-10603,2024-05-11,CUST-212,North America,Los Angeles,Fashion & Apparel,Italian Leather Chelsea Boots,8,221.29,0.1,1593.29,357.36,Corporate Invoice,Consumer,9,No
+ORD-10604,2024-05-18,CUST-189,Europe,London,Electronics,Noise-Canceling Headphones,1,247.24,0.2,197.79,15.21,Corporate Invoice,Consumer,2,No
+ORD-10605,2024-05-21,CUST-260,North America,New York,Fashion & Apparel,Merino Wool Blazer,2,238.45,0.05,453.05,109.99,Direct Wire,Small Business,8,No
+ORD-10606,2024-05-14,CUST-109,North America,New York,Furniture,Adjustable Standing Desk,2,572.15,0.15,972.65,86.56,Corporate Invoice,Small Business,8,No
+ORD-10607,2024-05-19,CUST-342,Europe,Madrid,Fashion & Apparel,Merino Wool Blazer,1,255.99,0.2,204.79,24.31,Credit Card,Small Business,1,Yes
+ORD-10608,2024-05-19,CUST-324,Europe,Berlin,Electronics,Wireless Fast Charger,1,50.88,0.0,50.88,3.75,PayPal,Corporate,2,No
+ORD-10609,2024-05-23,CUST-267,North America,Los Angeles,Fashion & Apparel,Merino Wool Blazer,1,260.61,0.2,208.49,19.94,Direct Wire,Consumer,7,Yes
+ORD-10610,2024-05-24,CUST-311,Europe,Paris,Electronics,"Ergonomic Laptop 15""",1,1151.7,0.15,978.95,153.47,Credit Card,Consumer,2,Yes
+ORD-10611,2024-05-24,CUST-315,Europe,Amsterdam,Furniture,Executive Ergonomic Chair,2,354.87,0.0,709.74,143.14,Direct Wire,Consumer,3,No
+ORD-10612,2024-05-21,CUST-350,North America,Chicago,Fashion & Apparel,Business Travel Backpack,5,89.72,0.0,448.6,123.05,Credit Card,Corporate,5,Yes
+ORD-10613,2024-05-20,CUST-346,Europe,Madrid,Furniture,Executive Ergonomic Chair,1,356.0,0.05,338.2,51.22,Credit Card,Consumer,2,No
+ORD-10614,2024-05-25,CUST-127,Europe,Berlin,Fashion & Apparel,Italian Leather Chelsea Boots,1,212.62,0.15,180.73,22.0,Corporate Invoice,Corporate,9,No
+ORD-10615,2024-05-26,CUST-285,North America,Houston,Furniture,Executive Ergonomic Chair,8,343.17,0.0,2745.36,570.98,Corporate Invoice,Consumer,6,No
+ORD-10616,2024-05-27,CUST-348,Europe,Amsterdam,Office Supplies,Locking Storage Cabinet,1,215.47,0.05,204.7,53.47,PayPal,Consumer,5,No
+ORD-10617,2024-05-29,CUST-343,Europe,London,Electronics,4K Ultra Gaming Monitor,2,520.22,0.0,1040.44,273.32,PayPal,Corporate,8,Yes
+ORD-10618,2024-05-27,CUST-255,Asia Pacific,Tokyo,Furniture,Adjustable Standing Desk,1,601.25,0.0,601.25,116.78,PayPal,Small Business,8,No
+ORD-10619,2024-05-25,CUST-290,Europe,Paris,Fashion & Apparel,Merino Wool Blazer,2,241.86,0.1,435.35,93.66,PayPal,Small Business,5,No
+ORD-10620,2024-05-28,CUST-266,North America,Los Angeles,Electronics,4K Ultra Gaming Monitor,5,521.93,0.0,2609.65,710.2,Corporate Invoice,Corporate,3,Yes
+ORD-10621,2024-06-02,CUST-193,North America,Chicago,Electronics,Noise-Canceling Headphones,8,256.07,0.0,2048.56,545.6,PayPal,Consumer,3,No
+ORD-10622,2024-05-30,CUST-342,North America,Chicago,Fashion & Apparel,Waterproof Trench Coat,2,183.38,0.2,293.41,31.88,Corporate Invoice,Small Business,8,No
+ORD-10623,2024-06-01,CUST-192,North America,New York,Furniture,Modern Minimalist Bookcase,8,202.05,0.0,1616.4,327.61,PayPal,Consumer,2,No
+ORD-10624,2024-06-03,CUST-307,North America,Houston,Office Supplies,Desk Organization Tray,3,17.73,0.0,53.19,-1.88,Corporate Invoice,Corporate,6,No
+ORD-10625,2024-06-02,CUST-169,Asia Pacific,Sydney,Fashion & Apparel,Merino Wool Blazer,4,244.62,0.05,929.56,239.6,Credit Card,Consumer,6,No
+ORD-10626,2024-05-31,CUST-173,Asia Pacific,Singapore,Fashion & Apparel,Italian Leather Chelsea Boots,1,216.91,0.0,216.91,53.91,Credit Card,Small Business,9,No
+ORD-10627,2024-06-08,CUST-271,Latin America,Buenos Aires,Furniture,Executive Ergonomic Chair,3,346.71,0.3,728.09,-19.14,PayPal,Consumer,5,No
+ORD-10628,2024-06-07,CUST-149,Latin America,Buenos Aires,Fashion & Apparel,Waterproof Trench Coat,3,189.94,0.0,569.82,161.84,Direct Wire,Consumer,8,Yes
+ORD-10629,2024-06-06,CUST-296,Asia Pacific,Mumbai,Furniture,Executive Ergonomic Chair,3,331.71,0.0,995.13,198.43,Credit Card,Corporate,7,No
+ORD-10630,2024-06-09,CUST-188,Latin America,Buenos Aires,Office Supplies,Recycled Multipurpose Paper,2,39.95,0.0,79.9,14.96,PayPal,Corporate,2,No
+ORD-10631,2024-06-12,CUST-143,Europe,Paris,Office Supplies,Premium Gel Pen 20-Pack,3,24.33,0.0,72.99,10.05,Credit Card,Small Business,1,No
+ORD-10632,2024-06-13,CUST-112,Europe,Amsterdam,Electronics,Ultra Pro Smartphone,1,827.75,0.0,827.75,221.27,Credit Card,Small Business,2,No
+ORD-10633,2024-06-10,CUST-144,North America,Toronto,Electronics,4K Ultra Gaming Monitor,5,519.87,0.0,2599.35,702.32,Direct Wire,Consumer,8,Yes
+ORD-10634,2024-06-11,CUST-228,Europe,Berlin,Fashion & Apparel,Merino Wool Blazer,5,245.03,0.0,1225.15,371.55,Corporate Invoice,Corporate,5,Yes
+ORD-10635,2024-06-08,CUST-160,Latin America,Sao Paulo,Fashion & Apparel,Business Travel Backpack,1,93.45,0.05,88.78,9.58,Credit Card,Small Business,6,Yes
+ORD-10636,2024-06-09,CUST-156,Asia Pacific,Sydney,Furniture,Executive Ergonomic Chair,8,366.32,0.0,2930.56,616.72,Direct Wire,Corporate,4,No
+ORD-10637,2024-06-14,CUST-233,Europe,Berlin,Electronics,4K Ultra Gaming Monitor,4,516.2,0.1,1858.32,362.96,PayPal,Small Business,4,No
+ORD-10638,2024-06-17,CUST-325,Asia Pacific,Seoul,Office Supplies,Locking Storage Cabinet,3,227.67,0.0,683.01,218.55,Corporate Invoice,Corporate,9,No
+ORD-10639,2024-06-14,CUST-192,Asia Pacific,Tokyo,Fashion & Apparel,Titanium Chrono Watch,2,311.37,0.0,622.74,181.28,PayPal,Small Business,11,No
+ORD-10640,2024-06-16,CUST-276,Asia Pacific,Singapore,Electronics,Wireless Fast Charger,2,49.66,0.15,84.42,1.14,Corporate Invoice,Corporate,5,No
+ORD-10641,2024-06-18,CUST-266,Latin America,Buenos Aires,Electronics,4K Ultra Gaming Monitor,3,513.17,0.0,1539.51,410.56,Corporate Invoice,Consumer,7,Yes
+ORD-10642,2024-06-19,CUST-242,Latin America,Sao Paulo,Furniture,Lounge Recliner Sofa,5,768.86,0.15,3267.66,330.77,Credit Card,Consumer,5,No
+ORD-10643,2024-06-16,CUST-314,Latin America,Sao Paulo,Office Supplies,Locking Storage Cabinet,2,216.89,0.0,433.78,133.82,Direct Wire,Consumer,7,No
+ORD-10644,2024-06-19,CUST-105,North America,Los Angeles,Fashion & Apparel,Titanium Chrono Watch,1,307.57,0.0,307.57,82.92,Credit Card,Corporate,9,No
+ORD-10645,2024-06-18,CUST-345,Latin America,Bogota,Furniture,Executive Ergonomic Chair,4,352.52,0.05,1339.58,221.47,PayPal,Consumer,9,No
+ORD-10646,2024-06-23,CUST-298,Asia Pacific,Singapore,Office Supplies,Heavy Duty Paper Shredder,8,128.02,0.0,1024.16,330.46,Corporate Invoice,Small Business,4,No
+ORD-10647,2024-06-21,CUST-332,North America,Toronto,Furniture,Solid Oak Conference Table,2,864.01,0.0,1728.02,367.16,Corporate Invoice,Corporate,2,No
+ORD-10648,2024-06-24,CUST-210,Asia Pacific,Seoul,Office Supplies,Heavy Duty Paper Shredder,2,126.59,0.0,253.18,70.61,PayPal,Corporate,12,No
+ORD-10649,2024-06-21,CUST-211,Europe,Berlin,Office Supplies,Heavy Duty Paper Shredder,1,132.17,0.0,132.17,35.76,PayPal,Small Business,5,No
+ORD-10650,2024-06-24,CUST-181,Latin America,Sao Paulo,Fashion & Apparel,Titanium Chrono Watch,1,309.19,0.0,309.19,88.44,Direct Wire,Corporate,2,No
