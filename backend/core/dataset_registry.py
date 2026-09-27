@@ -50,13 +50,33 @@ class DatasetRegistry:
         finally:
             conn.close()
 
+    @staticmethod
+    def resolve_file_path(path: str) -> str:
+        if not path:
+            return ""
+        if os.path.isabs(path) and os.path.exists(path):
+            return path
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        root_dir = os.path.dirname(base_dir)
+        root_path = os.path.abspath(os.path.join(root_dir, path))
+        if os.path.exists(root_path):
+            return root_path
+        base_path = os.path.abspath(os.path.join(base_dir, path))
+        if os.path.exists(base_path):
+            return base_path
+        cwd_path = os.path.abspath(path)
+        if os.path.exists(cwd_path):
+            return cwd_path
+        return path
+
     @classmethod
     def get_profile(cls, dataset_id: str, force_refresh: bool = False) -> Dict[str, Any]:
         meta = cls.get_dataset_metadata(dataset_id)
-        active_path = meta.get("cleaned_path") if (meta.get("cleaned_path") and os.path.exists(meta["cleaned_path"])) else meta["file_path"]
+        raw_path = meta.get("cleaned_path") if (meta.get("cleaned_path")) else meta["file_path"]
+        active_path = cls.resolve_file_path(raw_path)
         
         if not os.path.exists(active_path):
-            raise FileNotFoundError(f"Underlying dataset file '{active_path}' is missing on disk.")
+            raise FileNotFoundError(f"Underlying dataset file '{raw_path}' is missing on disk.")
 
         current_hash = cls.compute_file_hash(active_path)
 

@@ -30,18 +30,35 @@ from services.clean_service import CleanService
 from services.eda_agent_service import EDAAgentService, DatasetStatsPayload, AutoEDAReport
 from core.dataset_registry import DatasetRegistry
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(BASE_DIR)
+SAMPLES_DIR = os.path.join(BASE_DIR, "samples")
+DB_PATH = os.path.join(BASE_DIR, "insightpilot.db")
+
+def resolve_file_path(path: str) -> str:
+    if not path:
+        return ""
+    if os.path.isabs(path) and os.path.exists(path):
+        return path
+    root_path = os.path.abspath(os.path.join(ROOT_DIR, path))
+    if os.path.exists(root_path):
+        return root_path
+    base_path = os.path.abspath(os.path.join(BASE_DIR, path))
+    if os.path.exists(base_path):
+        return base_path
+    cwd_path = os.path.abspath(path)
+    if os.path.exists(cwd_path):
+        return cwd_path
+    return path
+
 # Environment Configuration
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./insightpilot.db")
-UPLOAD_DIR = os.getenv("UPLOAD_DIR", "./storage/uploads")
-REPORT_DIR = os.getenv("REPORT_DIR", "./storage/reports")
-MODEL_DIR = os.getenv("MODEL_DIR", "./storage/models")
+DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DB_PATH}")
+UPLOAD_DIR = os.path.abspath(os.getenv("UPLOAD_DIR", os.path.join(ROOT_DIR, "storage", "uploads")))
+REPORT_DIR = os.path.abspath(os.getenv("REPORT_DIR", os.path.join(ROOT_DIR, "storage", "reports")))
+MODEL_DIR = os.path.abspath(os.getenv("MODEL_DIR", os.path.join(ROOT_DIR, "storage", "models")))
 MAX_UPLOAD_SIZE_MB = int(os.getenv("MAX_UPLOAD_SIZE_MB", "100"))
 ALLOWED_FILE_TYPES = os.getenv("ALLOWED_FILE_TYPES", "csv,xlsx,xls,tsv").split(",")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SAMPLES_DIR = os.path.join(BASE_DIR, "samples")
-DB_PATH = os.path.join(BASE_DIR, "insightpilot.db")
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(REPORT_DIR, exist_ok=True)
@@ -142,9 +159,10 @@ def get_dataset_record(dataset_id: str):
 
 def get_df_by_id(dataset_id: str) -> pd.DataFrame:
     record = get_dataset_record(dataset_id)
-    target_path = record["cleaned_path"] if (record.get("cleaned_path") and os.path.exists(record["cleaned_path"])) else record["file_path"]
+    raw_path = record["cleaned_path"] if (record.get("cleaned_path")) else record["file_path"]
+    target_path = resolve_file_path(raw_path)
     if not os.path.exists(target_path):
-        raise HTTPException(status_code=404, detail=f"Dataset file missing on disk: {target_path}")
+        raise HTTPException(status_code=404, detail=f"Dataset file missing on disk: {raw_path}")
     return DataService.load_dataset(target_path)
 
 # --- Request Schemas ---
