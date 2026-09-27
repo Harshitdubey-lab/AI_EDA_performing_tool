@@ -96,9 +96,21 @@ export interface MLTrainingResponse {
 
 // API methods
 export async function getDatasets(): Promise<Dataset[]> {
-  const res = await fetch(`${API_BASE_URL}/api/datasets`);
-  if (!res.ok) throw new Error('Failed to fetch datasets');
-  return res.json();
+  try {
+    const res = await fetch(`${API_BASE_URL}/api/datasets`);
+    if (!res.ok) {
+      let detail = `Failed to fetch datasets (${res.status} ${res.statusText})`;
+      try {
+        const err = await res.json();
+        if (err?.detail) detail = err.detail;
+      } catch (_) {}
+      throw new Error(detail);
+    }
+    return res.json();
+  } catch (err: any) {
+    console.error('getDatasets error:', err);
+    throw err;
+  }
 }
 
 export async function uploadDataset(file: File, name?: string): Promise<Dataset> {
@@ -111,16 +123,35 @@ export async function uploadDataset(file: File, name?: string): Promise<Dataset>
     body: formData,
   });
   if (!res.ok) {
-    const err = await res.json();
-    throw new Error(err.detail || 'Failed to upload dataset');
+    let detail = 'Failed to upload dataset';
+    try {
+      const err = await res.json();
+      if (err?.detail) detail = err.detail;
+    } catch (_) {}
+    throw new Error(detail);
   }
   return res.json();
 }
 
 export async function getDatasetProfile(id: string): Promise<DatasetProfile> {
-  const res = await fetch(`${API_BASE_URL}/api/datasets/${id}/profile`);
-  if (!res.ok) throw new Error('Failed to fetch dataset profile');
-  return res.json();
+  if (!id) {
+    throw new Error('Dataset ID is required to fetch profile');
+  }
+  try {
+    const res = await fetch(`${API_BASE_URL}/api/datasets/${encodeURIComponent(id)}/profile`);
+    if (!res.ok) {
+      let detail = `Failed to fetch dataset profile (${res.status} ${res.statusText})`;
+      try {
+        const err = await res.json();
+        if (err?.detail) detail = err.detail;
+      } catch (_) {}
+      throw new Error(detail);
+    }
+    return res.json();
+  } catch (err: any) {
+    console.error(`getDatasetProfile error for ID ${id}:`, err);
+    throw err;
+  }
 }
 
 export async function getDatasetPreview(
@@ -136,13 +167,23 @@ export async function getDatasetPreview(
   columns: string[];
   data: Array<Record<string, any>>;
 }> {
-  const url = new URL(`${API_BASE_URL}/api/datasets/${id}/preview`);
+  if (!id) {
+    throw new Error('Dataset ID is required to fetch preview');
+  }
+  const url = new URL(`${API_BASE_URL}/api/datasets/${encodeURIComponent(id)}/preview`);
   url.searchParams.append('page', String(page));
   url.searchParams.append('page_size', String(pageSize));
   if (search) url.searchParams.append('search', search);
 
   const res = await fetch(url.toString());
-  if (!res.ok) throw new Error('Failed to fetch dataset preview');
+  if (!res.ok) {
+    let detail = `Failed to fetch dataset preview (${res.status})`;
+    try {
+      const err = await res.json();
+      if (err?.detail) detail = err.detail;
+    } catch (_) {}
+    throw new Error(detail);
+  }
   return res.json();
 }
 
