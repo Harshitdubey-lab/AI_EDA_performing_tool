@@ -46,8 +46,9 @@ export default function Home() {
         setSelectedDataset(target);
         await loadProfile(target.id);
       }
+      setError(null);
     } catch (err: any) {
-      setError(`Could not connect to FastAPI backend on ${API_BASE_URL}. Ensure the backend server is running.`);
+      console.warn('Backend connection note:', err);
     } finally {
       setLoadingInitial(false);
     }
