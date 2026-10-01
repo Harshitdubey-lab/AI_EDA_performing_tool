@@ -28,6 +28,7 @@ from services.report_service import ReportService
 from services.pdf_service import PDFService
 from services.clean_service import CleanService
 from services.eda_agent_service import EDAAgentService, DatasetStatsPayload, AutoEDAReport
+from services.supabase_service import SupabaseService
 from core.dataset_registry import DatasetRegistry
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -245,12 +246,28 @@ async def upload_dataset(file: UploadFile = File(...), name: Optional[str] = For
     display_name = name or os.path.splitext(file.filename)[0].replace("_", " ").title()
     size_kb = round(os.path.getsize(dest_path) / 1024, 1)
 
+    now_iso = datetime.now().isoformat()
+    record_payload = {
+        "id": dataset_id,
+        "name": display_name,
+        "filename": file.filename,
+        "file_path": dest_path,
+        "row_count": len(df),
+        "col_count": len(df.columns),
+        "file_size_kb": size_kb,
+        "created_at": now_iso,
+        "is_sample": False
+    }
+
     with get_db() as conn:
         conn.execute("""
             INSERT INTO datasets (id, name, filename, file_path, row_count, col_count, file_size_kb, created_at, is_sample)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, 0)
-        """, (dataset_id, display_name, file.filename, dest_path, len(df), len(df.columns), size_kb, datetime.now().isoformat()))
+        """, (dataset_id, display_name, file.filename, dest_path, len(df), len(df.columns), size_kb, now_iso))
         conn.commit()
+
+    if SupabaseService.is_configured():
+        SupabaseService.insert_dataset(record_payload)
 
     return {
         "id": dataset_id,
@@ -259,8 +276,33 @@ async def upload_dataset(file: UploadFile = File(...), name: Optional[str] = For
         "rows": len(df),
         "columns": len(df.columns),
         "file_size_kb": size_kb,
-        "created_at": datetime.now().isoformat()
+        "created_at": now_iso
     }
+
+@app.get("/api/supabase/status")
+def supabase_status():
+    return SupabaseService.get_status()
+
+@app.post("/api/supabase/sync")
+def supabase_sync():
+    if not SupabaseService.is_configured():
+        return {
+            "status": "error",
+            "message": "Supabase credentials (SUPABASE_ANON_KEY / SUPABASE_KEY) not set in environment.",
+            "supabase_url": SupabaseService._url
+        }
+    with get_db() as conn:
+        rows = [dict(r) for r in conn.execute("SELECT * FROM datasets").fetchall()]
+        synced_count = 0
+        for r in rows:
+            if SupabaseService.insert_dataset(r):
+                synced_count += 1
+        return {
+            "status": "success",
+            "synced_datasets": synced_count,
+            "total_datasets": len(rows),
+            "supabase_url": SupabaseService._url
+        }
 
 @app.get("/api/datasets/{dataset_id}")
 def get_dataset(dataset_id: str):
