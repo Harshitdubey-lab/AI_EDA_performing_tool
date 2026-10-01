@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "npm --prefix frontend run dev",
     "dev:frontend": "npm --prefix frontend run dev",
-    "dev:backend": "python -m uvicorn backend.main:app --host 127.0.0.1 --port 8001 --reload",
-    "build": "npm --prefix frontend run build",
-    "start": "npm --prefix frontend run start",
+    "build": "node build-vercel.js",
+    "start": "next start",
     "test:backend": "python backend/test_suite.py",
     "git:status": "git status",
     "git:add": "git add -A",
