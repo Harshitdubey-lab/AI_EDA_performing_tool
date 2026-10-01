@@ -7,6 +7,8 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38B2AC.svg)](https://tailwindcss.com/)
 [![Vercel Deployment](https://img.shields.io/badge/Vercel-Ready-black.svg)](https://vercel.com/)
 
+LIVE LINK :- https://ai-eda-performing-tool.vercel.app/
+
 **InsightPilot AI** is an enterprise-grade, full-stack AI data analytics and data science SaaS platform. It combines automated exploratory data analysis (EDA), a deterministic **zero-hallucination** statistical intelligence engine, interactive multi-chart visualization studios, production-grade scikit-learn machine learning training pipelines, and executive ReportLab PDF dossier generation.
 
 ---
