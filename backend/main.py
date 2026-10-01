@@ -36,6 +36,27 @@ ROOT_DIR = os.path.dirname(BASE_DIR)
 SAMPLES_DIR = os.path.join(BASE_DIR, "samples")
 DB_PATH = os.path.join(BASE_DIR, "insightpilot.db")
 
+# Load environment variables from .env if present
+def load_env_file(filepath: str):
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, v = line.split("=", 1)
+                    k = k.strip()
+                    v = v.strip().strip("'\"")
+                    if k and k not in os.environ:
+                        os.environ[k] = v
+
+load_env_file(os.path.join(ROOT_DIR, ".env"))
+load_env_file(os.path.join(BASE_DIR, ".env"))
+
+# Refresh Supabase configuration from environment
+SUPABASE_URL = os.getenv("SUPABASE_URL", "https://tjbgwejzoepyuavleziw.supabase.co")
+SUPABASE_KEY = os.getenv("SUPABASE_ANON_KEY", os.getenv("SUPABASE_KEY", os.getenv("SUPABASE_SERVICE_ROLE_KEY", "")))
+SupabaseService.configure(SUPABASE_URL, SUPABASE_KEY)
+
 def resolve_file_path(path: str) -> str:
     if not path:
         return ""
