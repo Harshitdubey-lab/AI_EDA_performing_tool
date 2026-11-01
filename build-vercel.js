@@ -4,6 +4,7 @@ const path = require('path');
 
 console.log('--- Starting InsightPilot Universal Build ---');
 
+
 try {
   // 1. Install frontend dependencies
   console.log('Installing frontend dependencies...');
